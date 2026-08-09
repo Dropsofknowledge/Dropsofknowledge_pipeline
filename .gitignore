@@ -1,0 +1,8 @@
+*.mp3
+*.wav
+*.mp4
+transcripts/
+clip_plans/
+.env
+__pycache__/
+*.pyc

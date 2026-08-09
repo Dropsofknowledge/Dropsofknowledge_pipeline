@@ -1,0 +1,10 @@
+{
+  "series": "kabair",
+  "episode": "0048",
+  "speaker": "Sheikh Salih Al-Fawzan",
+  "clips": [
+    { "id": "0001", "start": "00:03:15.200", "end": "00:04:08.800", "headline": "Never Underestimate Minor Sins", "priority": 98, "confidence": 0.97, "flag": null },
+    { "id": "0002", "start": "00:04:50.000", "end": "00:05:20.000", "headline": "Sincerity In Every Act Of Worship", "priority": 92, "confidence": 0.9, "flag": null },
+    { "id": "0003", "start": "00:04:00.000", "end": "00:09:30.000", "headline": "This Clip Exceeds The Source", "priority": 50, "confidence": 0.4, "flag": "uncertain timing" }
+  ]
+}
