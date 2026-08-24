@@ -80,7 +80,10 @@ def graph_post(url, fields, file_field, file_path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('--id', required=True, help='queue entry id')
+    ap.add_argument('--id', help='queue entry id')
+    ap.add_argument('--dry-run', action='store_true',
+                    help='validate credentials with a read-only Graph call '
+                         '(no upload)')
     args = ap.parse_args()
 
     env = pk.load_env()
