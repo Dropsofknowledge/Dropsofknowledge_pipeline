@@ -88,6 +88,27 @@ def main():
 
     env = pk.load_env()
     version = env.get('FB_GRAPH_VERSION') or 'v21.0'
+
+    # ── dry-run: validate credentials only ────────────────────────
+    if args.dry_run:
+        page_id = env.get('FB_PAGE_ID')
+        token = env.get('FB_PAGE_ACCESS_TOKEN')
+        if not page_id or not token:
+            die('Missing .env keys: FB_PAGE_ID and FB_PAGE_ACCESS_TOKEN')
+        # read-only GET to fetch page name
+        url = f'https://graph.facebook.com/{version}/{page_id}?fields=name&access_token={token}'
+        try:
+            import urllib.request
+            with urllib.request.urlopen(url, timeout=30) as resp:
+                data = json.loads(resp.read().decode())
+                page_name = data.get('name', 'unnamed page')
+                print(f"[OK] Credentials valid — Facebook page '{page_name}' "
+                      f"is reachable (Graph API v{version})")
+                sys.exit(0)
+        except Exception as exc:
+            die(f'Credentials rejected by Graph API: {exc}')
+
+    # ── normal publish path (unchanged below) ──────────────────────
     q = pk.load_queue()
     entry = pk.require_entry(q, args.id)
     if entry['status'] != 'approved':
