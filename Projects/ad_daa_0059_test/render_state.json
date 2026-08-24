@@ -1,0 +1,21 @@
+﻿{
+    "project":  "ad_daa_0059",
+    "last_run":  "2026-08-24T15:09:58Z",
+    "clips":  [
+                  {
+                      "id":  "0059-01",
+                      "status":  "completed",
+                      "output":  "output/0059-01/clip.mp4"
+                  },
+                  {
+                      "id":  "0059-02",
+                      "status":  "completed",
+                      "output":  "output/0059-02/clip.mp4"
+                  },
+                  {
+                      "id":  "0059-03",
+                      "status":  "completed",
+                      "output":  "output/0059-03/clip.mp4"
+                  }
+              ]
+}

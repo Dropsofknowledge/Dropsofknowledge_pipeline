@@ -1,0 +1,117 @@
+{
+  "series": "ad_daa",
+  "episode": "0059",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "clips": [
+    {
+      "id": "0059-01",
+      "start": "00:16:04",
+      "end": "00:17:05",
+      "_start_sec": 964.0,
+      "_end_sec": 1025.0,
+      "headline": "Why Immediate Good Deeds Are Better Than Delayed Ones",
+      "hook_sentence": "إنه أفضل أن تجمعه مباشرة",
+      "lesson_summary": "Explains that gathering reward now is better than waiting for a larger future reward, with practical examples.",
+      "benefit_score": 7.0,
+      "hook_strength": 7.0,
+      "context_independent": true,
+      "mute_watchable": true
+    },
+    {
+      "id": "0059-02",
+      "start": "00:19:07",
+      "end": "00:20:55",
+      "_start_sec": 1147.0,
+      "_end_sec": 1255.0,
+      "headline": "The Weight of This World vs. the Hereafter",
+      "hook_sentence": "وَلَا مِثْقَالَ ذَرَّةٍ مِنَ الآخِرَةِ",
+      "lesson_summary": "Shows that the entirety of this dunya does not equal even a speck of the Hereafter, using Qur’an and hadith evidence.",
+      "benefit_score": 8.0,
+      "hook_strength": 8.0,
+      "context_independent": true,
+      "mute_watchable": true
+    },
+    {
+      "id": "0059-03",
+      "start": "00:47:02",
+      "end": "00:48:12",
+      "_start_sec": 2822.0,
+      "_end_sec": 2892.0,
+      "headline": "Beware of Evil Companions and Temporary Desires",
+      "hook_sentence": "Do not be deceived by evil companions that you have.",
+      "lesson_summary": "The speaker warns that evil friends and fleeting desires can mislead you and cause doubt in Allah’s promises, urging vigilance.",
+      "benefit_score": 8.0,
+      "hook_strength": 9.0,
+      "context_independent": true,
+      "mute_watchable": true
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "start": "00:00:00",
+      "end": "00:00:30",
+      "reason": "Opening salutations and standard basmala; weak hook, no standalone lesson."
+    },
+    {
+      "start": "00:10:01",
+      "end": "00:10:15",
+      "reason": "Pronoun‑dependent criticism of corruption without full context; meaning unclear without preceding discussion."
+    },
+    {
+      "start": "00:07:46",
+      "end": "00:08:05",
+      "reason": "Fragmented English‑Arabic mix; first sentence is a vague statement, not a compelling hook, and relies on prior context."
+    },
+    {
+      "start": "00:22:35",
+      "end": "00:23:30",
+      "reason": "Pronoun‑dependent opening and the answer is spread across later sections, making the clip confusing without prior context."
+    },
+    {
+      "start": "00:14:08",
+      "end": "00:14:30",
+      "reason": "Opening phrase is vague and the main point is only a fleeting comment; lacks a clear hook and complete explanation."
+    },
+    {
+      "start": "00:26:58",
+      "end": "00:27:15",
+      "reason": "Rhetorical questions about killing for money without providing an answer or clear guidance; the clip lacks a complete lesson and leaves the viewer without a conclusion."
+    },
+    {
+      "start": "00:27:32",
+      "end": "00:27:38",
+      "reason": "Raises a question about giving preference and mentions losing goodness, but does not include the speaker's explanation or resolution, making it context‑dependent."
+    },
+    {
+      "start": "00:36:58",
+      "end": "00:37:15",
+      "reason": "Discusses doubt about Allah's promises without delivering a full teaching, conclusion, or actionable advice; meaning relies on surrounding discussion."
+    },
+    {
+      "start": "00:38:53",
+      "end": "00:40:10",
+      "reason": "Opening is a vague transitional phrase and the passage is fragmented with many unintelligible words; meaning depends on earlier context."
+    },
+    {
+      "start": "00:52:08",
+      "end": "00:53:00",
+      "reason": "Pronoun‑dependent opening (“إذا تركت ريبا يا أخي”) without clear explanation of conditions; the segment is incomplete and confusing."
+    },
+    {
+      "start": "00:42:40",
+      "end": "00:43:10",
+      "reason": "Contains repeated accusations of disbelief without context; the statement is extreme and relies on prior discussion to understand nuance."
+    }
+  ],
+  "_staging": {
+    "status": "approved",
+    "generated_at": "2026-08-24T15:27:10+01:00",
+    "model": "openai/gpt-oss-120b",
+    "source": "transcript.json",
+    "source_sha256": "3213a865d110b6d23d027aac763356e64b1f3f4ee4b03a0de0c5ac09a2194f58",
+    "windows": 6,
+    "llm_seconds": 235.6,
+    "approved_at": "2026-08-24T16:03:53+01:00",
+    "promoted_to": "Projects/ad_daa_0059_test/clip_plan.json"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "series": "ad_daa",
+  "episode": "0059",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "clips": [
+    {
+      "id": "0059-01",
+      "start": "0:04:29",
+      "end": "0:05:31",
+      "headline": "When people abandon Allah’s laws, doors to all sins open",
+      "confidence": 0.95,
+      "flag": null
+    },
+    {
+      "id": "0059-02",
+      "start": "0:13:12",
+      "end": "0:15:10",
+      "headline": "Ibn al‑Qayyim on seeking immediate benefit vs future promises",
+      "confidence": 0.94,
+      "flag": null
+    },
+    {
+      "id": "0059-03",
+      "start": "0:18:40",
+      "end": "0:19:55",
+      "headline": "The Dunya’s Worth vs. the Hereafter – A Hadith Reminder",
+      "confidence": 0.9,
+      "flag": null
+    },
+    {
+      "id": "0059-04",
+      "start": "0:27:02",
+      "end": "0:28:15",
+      "headline": "Avoid Corruption: Why Gaining Money by Wrongdoing Fails",
+      "confidence": 0.9,
+      "flag": null
+    },
+    {
+      "id": "0059-05",
+      "start": "36:37",
+      "end": "37:39",
+      "headline": "Avoid Doubt About Allah’s Promises",
+      "confidence": 0.95,
+      "flag": null
+    },
+    {
+      "id": "0059-06",
+      "start": "47:02",
+      "end": "48:39",
+      "headline": "Do Not Be Deceived by Dunya and Temporary Desires",
+      "confidence": 0.95,
+      "flag": null
+    }
+  ],
+  "_staging": {
+    "status": "staged",
+    "generated_at": "2026-08-24T14:46:15+01:00",
+    "model": "openai/gpt-oss-120b",
+    "source": "transcript.json",
+    "source_sha256": "3213a865d110b6d23d027aac763356e64b1f3f4ee4b03a0de0c5ac09a2194f58",
+    "windows": 5,
+    "llm_seconds": 83.1
+  }
+}

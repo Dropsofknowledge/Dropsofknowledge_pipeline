@@ -1,0 +1,35 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.12,Caption,,0,0,0,,{\pos(540,1163)}فَنَكْدُ خَيْر
+Dialogue: 0,0:00:00.12,0:00:02.12,Caption,,0,0,0,,{\pos(540,1163)}إنه أفضل أن تجمعه مباشرة
+Dialogue: 0,0:00:02.12,0:00:06.62,Caption,,0,0,0,,{\pos(540,1163)}وَإِنْ تَفَاوَتَا وَكَانَتْ\Nأَنَّسِيْ أَتُو أَكْثَرُ
+Dialogue: 0,0:00:06.62,0:00:11.12,Caption,,0,0,0,,{\pos(540,1163)}فَهِيَ أَفْضَلُ وَخَيْر
+Dialogue: 0,0:00:11.12,0:00:14.87,Caption,,0,0,0,,{\pos(540,1163)}ولكن إذا كانوا مختلفين، إذا\Nكانوا مستقبلاً
+Dialogue: 0,0:00:14.87,0:00:18.62,Caption,,0,0,0,,{\pos(540,1163)}تجمعوا 10,000 نيرا، على سبيل\Nالمثال، وفي
+Dialogue: 0,0:00:18.62,0:00:22.37,Caption,,0,0,0,,{\pos(540,1163)}سنة واحدة من مجالات نفسية،\Nستجمعون 1
+Dialogue: 0,0:00:22.37,0:00:26.12,Caption,,0,0,0,,{\pos(540,1163)}مليون.
+Dialogue: 0,0:00:26.12,0:00:29.12,Caption,,0,0,0,,{\pos(540,1163)}ستجمعون 1 مليون.
+Dialogue: 0,0:00:29.12,0:00:35.12,Caption,,0,0,0,,{\pos(540,1163)}قال رحمه الله، فَالنَّسِيءَ\Nتُأْكْثَرُ أَفْضَلُ
+Dialogue: 0,0:00:35.12,0:00:38.12,Caption,,0,0,0,,{\pos(540,1163)}ثم يتجمع بعدها أفضل وخير\Nومكافحة أفضل
+Dialogue: 0,0:00:38.12,0:00:41.12,Caption,,0,0,0,,{\pos(540,1163)}وخير
+Dialogue: 0,0:00:41.12,0:00:43.12,Caption,,0,0,0,,{\pos(540,1163)}فهي أفضل وخير
+Dialogue: 0,0:00:43.12,0:00:46.12,Caption,,0,0,0,,{\pos(540,1163)}ومكافحة أفضل وخير
+Dialogue: 0,0:00:46.12,0:00:49.12,Caption,,0,0,0,,{\pos(540,1163)}إذا كانت تأكيدك صحيحة
+Dialogue: 0,0:00:49.12,0:00:52.12,Caption,,0,0,0,,{\pos(540,1163)}أنك تريد هذا العالم العالم\Nالعالم
+Dialogue: 0,0:00:52.12,0:00:53.62,Caption,,0,0,0,,{\pos(540,1163)}كما أنه تترك الأشياء تترك هذا\Nالله
+Dialogue: 0,0:00:53.62,0:00:55.12,Caption,,0,0,0,,{\pos(540,1163)}يرحمه
+Dialogue: 0,0:00:55.12,0:00:57.12,Caption,,0,0,0,,{\pos(540,1163)}هذا هو بعد
+Dialogue: 0,0:00:57.12,0:00:59.12,Caption,,0,0,0,,{\pos(540,1163)}ومعنى أنك تريد التجمع الآن
+Dialogue: 0,0:00:59.12,0:01:01.00,Caption,,0,0,0,,{\pos(540,1163)}هو أفضل من بعد
+

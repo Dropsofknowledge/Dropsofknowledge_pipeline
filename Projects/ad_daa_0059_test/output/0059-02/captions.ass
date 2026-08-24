@@ -1,0 +1,60 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.03,Caption,,0,0,0,,{\pos(540,1163)}the whole all of it put\Ntogether.
+Dialogue: 0,0:00:00.03,0:00:00.05,Caption,,0,0,0,,{\pos(540,1163)}It does not equate the\Nsmallest breath
+Dialogue: 0,0:00:00.05,0:00:00.08,Caption,,0,0,0,,{\pos(540,1163)}in the
+Dialogue: 0,0:00:00.08,0:00:04.00,Caption,,0,0,0,,{\pos(540,1163)}وَلَا مِثْقَالَ ذَرَّةٍ مِنَ\Nالْآخِرَةِ
+Dialogue: 0,0:00:04.00,0:00:06.45,Caption,,0,0,0,,{\pos(540,1163)}It does not equate the\Nsmallest speck
+Dialogue: 0,0:00:06.45,0:00:08.90,Caption,,0,0,0,,{\pos(540,1163)}of dust
+Dialogue: 0,0:00:08.90,0:00:11.08,Caption,,0,0,0,,{\pos(540,1163)}If there are dusts
+Dialogue: 0,0:00:11.74,0:00:13.38,Caption,,0,0,0,,{\pos(540,1163)}But for want of expression
+Dialogue: 0,0:00:13.38,0:00:15.36,Caption,,0,0,0,,{\pos(540,1163)}The entirety of this dunya\Ndoes not
+Dialogue: 0,0:00:15.36,0:00:17.34,Caption,,0,0,0,,{\pos(540,1163)}equate
+Dialogue: 0,0:00:17.34,0:00:20.08,Caption,,0,0,0,,{\pos(540,1163)}مِثْقَالَ ذَرَّةٍ مِنَ\Nالْآخِرَةِ
+Dialogue: 0,0:00:20.88,0:00:22.91,Caption,,0,0,0,,{\pos(540,1163)}The weight of the smallest\Nspeck in
+Dialogue: 0,0:00:22.91,0:00:24.94,Caption,,0,0,0,,{\pos(540,1163)}آخرة
+Dialogue: 0,0:00:24.94,0:00:29.08,Caption,,0,0,0,,{\pos(540,1163)}كَمَا فِي مُسْنَدِ الْإِمَامِ\Nأَحْمَدُ وَالْتِرْمِذِ
+Dialogue: 0,0:00:29.08,0:00:33.86,Caption,,0,0,0,,{\pos(540,1163)}من حديث المستورد من ابن شداد
+Dialogue: 0,0:00:33.86,0:00:35.21,Caption,,0,0,0,,{\pos(540,1163)}just as it's a cause in the
+Dialogue: 0,0:00:35.21,0:00:36.56,Caption,,0,0,0,,{\pos(540,1163)}hadith
+Dialogue: 0,0:00:36.56,0:00:39.10,Caption,,0,0,0,,{\pos(540,1163)}collected by the imam Ahmed
+Dialogue: 0,0:00:39.10,0:00:40.94,Caption,,0,0,0,,{\pos(540,1163)}واترمذي
+Dialogue: 0,0:00:40.94,0:00:44.64,Caption,,0,0,0,,{\pos(540,1163)}from the hadith of مستورد ابن\Nشداد
+Dialogue: 0,0:00:44.64,0:00:45.24,Caption,,0,0,0,,{\pos(540,1163)}who said
+Dialogue: 0,0:00:45.24,0:00:47.08,Caption,,0,0,0,,{\pos(540,1163)}قال رسول الله صلى الله عليه\Nوآله
+Dialogue: 0,0:00:47.08,0:00:48.92,Caption,,0,0,0,,{\pos(540,1163)}وسلم
+Dialogue: 0,0:00:48.92,0:00:51.20,Caption,,0,0,0,,{\pos(540,1163)}the messenger of Allah صلى\Nالله عليه
+Dialogue: 0,0:00:51.20,0:00:53.48,Caption,,0,0,0,,{\pos(540,1163)}وآله وسلم said
+Dialogue: 0,0:00:53.48,0:00:56.12,Caption,,0,0,0,,{\pos(540,1163)}مدّنيا في الآخرة
+Dialogue: 0,0:00:56.12,0:00:59.28,Caption,,0,0,0,,{\pos(540,1163)}ما هو مالك لبستونيا
+Dialogue: 0,0:00:59.28,0:01:01.26,Caption,,0,0,0,,{\pos(540,1163)}إذا تقاربه
+Dialogue: 0,0:01:01.26,0:01:02.12,Caption,,0,0,0,,{\pos(540,1163)}إلى آخرة
+Dialogue: 0,0:01:02.12,0:01:05.28,Caption,,0,0,0,,{\pos(540,1163)}إلا كما يدخل أحدكم
+Dialogue: 0,0:01:05.28,0:01:06.84,Caption,,0,0,0,,{\pos(540,1163)}إصبعه في اليمن
+Dialogue: 0,0:01:06.84,0:01:08.34,Caption,,0,0,0,,{\pos(540,1163)}إجتماعي
+Dialogue: 0,0:01:08.34,0:01:10.28,Caption,,0,0,0,,{\pos(540,1163)}أي واحد منكم
+Dialogue: 0,0:01:10.28,0:01:13.46,Caption,,0,0,0,,{\pos(540,1163)}سيضع
+Dialogue: 0,0:01:13.46,0:01:14.76,Caption,,0,0,0,,{\pos(540,1163)}يده
+Dialogue: 0,0:01:14.76,0:01:17.08,Caption,,0,0,0,,{\pos(540,1163)}في المياه
+Dialogue: 0,0:01:17.08,0:01:19.40,Caption,,0,0,0,,{\pos(540,1163)}فلينظر
+Dialogue: 0,0:01:19.40,0:01:20.56,Caption,,0,0,0,,{\pos(540,1163)}بمترجر
+Dialogue: 0,0:01:20.56,0:01:22.46,Caption,,0,0,0,,{\pos(540,1163)}دعه يرى
+Dialogue: 0,0:01:22.46,0:01:24.40,Caption,,0,0,0,,{\pos(540,1163)}ما هو الذي سيأخذ هذا يده
+Dialogue: 0,0:01:24.40,0:01:26.10,Caption,,0,0,0,,{\pos(540,1163)}من المياه
+Dialogue: 0,0:01:26.12,0:01:35.62,Caption,,0,0,0,,{\pos(540,1163)}التواضع في إلتريات الفرق بين\Nالجنة والسعادة
+Dialogue: 0,0:01:35.62,0:01:45.12,Caption,,0,0,0,,{\pos(540,1163)}والخير والأخير
+Dialogue: 0,0:01:45.12,0:01:46.08,Caption,,0,0,0,,{\pos(540,1163)}هو أن تضع يدك في الماء ،
+Dialogue: 0,0:01:46.08,0:01:47.04,Caption,,0,0,0,,{\pos(540,1163)}في الأمم ، في الأطلق ، في
+Dialogue: 0,0:01:47.04,0:01:48.00,Caption,,0,0,0,,{\pos(540,1163)}المدينة المصرية ،
+

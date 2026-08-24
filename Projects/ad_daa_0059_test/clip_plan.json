@@ -1,0 +1,27 @@
+{
+  "series": "ad_daa",
+  "episode": "0059",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "clips": [
+    {
+      "id": "0059-01",
+      "start": "00:16:04",
+      "end": "00:17:05",
+      "headline": "Why Immediate Good Deeds Are Better Than Delayed Ones"
+    },
+    {
+      "id": "0059-02",
+      "start": "00:19:07",
+      "end": "00:20:55",
+      "headline": "The Weight of This World vs. the Hereafter"
+    },
+    {
+      "id": "0059-03",
+      "start": "00:47:02",
+      "end": "00:48:12",
+      "headline": "Beware of Evil Companions and Temporary Desires"
+    }
+  ],
+  "version": "openai/gpt-oss-120b",
+  "source": "staged:clip_plan_staging_20260824_152710.json"
+}
