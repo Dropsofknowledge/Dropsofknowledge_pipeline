@@ -1,0 +1,95 @@
+﻿{
+    "name":  "ad_daa",
+    "canvas":  {
+                   "width":  1080,
+                   "height":  1920
+               },
+    "fps":  30,
+    "background":  "kabair.png",
+    "safe_area":  {
+                      "top":  259,
+                      "bottom":  517,
+                      "left":  102,
+                      "right":  102
+                  },
+    "fonts":  {
+                  "id":  "fonts/Oswald.ttf",
+                  "title":  "fonts/PTSerif-Regular.ttf",
+                  "speaker":  "fonts/Montserrat-SemiBold.ttf",
+                  "subtitle":  "fonts/PTSerif-Bold.ttf",
+                  "arabic":  "fonts/NotoNaskhArabic-Regular.ttf"
+              },
+    "elements":  {
+                     "id":  {
+                                "enabled":  true,
+                                "comment":  "Series ID number rendered beside the baked \u0027Al-Kabiir Series #\u0027. Prefix \u0027#\u0027 included by renderer.",
+                                "x":  645,
+                                "y":  475,
+                                "width":  225,
+                                "height":  49,
+                                "align":  "left",
+                                "font_size":  31,
+                                "color":  "#E8D7A0",
+                                "prefix":  "#",
+                                "letter_spacing":  1,
+                                "font_weight":  "300"
+                            },
+                     "title":  {
+                                   "enabled":  true,
+                                   "comment":  "Unique per-clip headline from clip_plan.json. Auto-fits and grows downward, centered.",
+                                   "x":  109,
+                                   "y":  611,
+                                   "width":  862,
+                                   "height":  340,
+                                   "align":  "center",
+                                   "valign":  "top",
+                                   "font_max":  61,
+                                   "font_min":  30,
+                                   "line_spacing":  1.16,
+                                   "max_chars_per_line":  26,
+                                   "max_lines":  4,
+                                   "color":  "#FFFFFF",
+                                   "outline":  0,
+                                   "outline_color":  "#000000",
+                                   "font_weight":  "800"
+                               },
+                     "speaker":  {
+                                     "enabled":  true,
+                                     "comment":  "Sheikh name on the cream banner (below baked \u0027By Sheikh:\u0027). Single or two lines, dark text.",
+                                     "x":  200,
+                                     "y":  1035,
+                                     "width":  704,
+                                     "height":  88,
+                                     "align":  "center",
+                                     "valign":  "middle",
+                                     "font_max":  26,
+                                     "font_min":  15,
+                                     "line_spacing":  1.08,
+                                     "max_chars_per_line":  22,
+                                     "max_lines":  2,
+                                     "color":  "#1C1C1C",
+                                     "uppercase":  true,
+                                     "letter_spacing":  1,
+                                     "font_weight":  "700"
+                                 },
+                     "caption_box":  {
+                                         "enabled":  true,
+                                         "comment":  "Subtitle/caption area inside the baked white rounded box.",
+                                         "x":  167,
+                                         "y":  1170,
+                                         "width":  747,
+                                         "height":  136,
+                                         "align":  "center",
+                                         "valign":  "middle",
+                                         "font_size":  41,
+                                         "font_min":  27,
+                                         "line_spacing":  1.12,
+                                         "max_chars_per_line":  29,
+                                         "max_words":  7,
+                                         "max_lines":  2,
+                                         "color":  "#1A1A1A",
+                                         "outline":  0
+                                     }
+                 },
+    "allow_project_background":  false
+}

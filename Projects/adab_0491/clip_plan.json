@@ -1,0 +1,73 @@
+{
+  "series": "Dropsofknowledge",
+  "episode": "0491",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "version": "5.3.1",
+  "source": "adab491.amr",
+  "clips": [
+    {
+      "id": "0491-01",
+      "start": "00:10:07.430",
+      "end": "00:11:10.330",
+      "headline": "Do Not Speak About What You Do Not Know",
+      "confidence": 0.97,
+      "flag": null
+    },
+    {
+      "id": "0491-02",
+      "start": "00:19:45.470",
+      "end": "00:21:26.670",
+      "headline": "Make Dua in Sujood Without Restricting It to One Place",
+      "confidence": 0.94,
+      "flag": null
+    },
+    {
+      "id": "0491-03",
+      "start": "00:27:01.410",
+      "end": "00:28:48.830",
+      "headline": "Allah's Knowledge Is Complete, Ours Is Limited",
+      "confidence": 0.96,
+      "flag": null
+    },
+    {
+      "id": "0491-04",
+      "start": "00:30:40.310",
+      "end": "00:32:37.150",
+      "headline": "Your Everyday Work Can Become Worship",
+      "confidence": 0.98,
+      "flag": null
+    },
+    {
+      "id": "0491-05",
+      "start": "00:32:32.550",
+      "end": "00:33:29.310",
+      "headline": "How Lawful Business Becomes an Act of Worship",
+      "confidence": 0.97,
+      "flag": null
+    },
+    {
+      "id": "0491-06",
+      "start": "00:36:51.350",
+      "end": "00:38:29.310",
+      "headline": "Islam Guides Every Part of a Muslim's Life",
+      "confidence": 0.93,
+      "flag": null
+    },
+    {
+      "id": "0491-07",
+      "start": "00:50:24.390",
+      "end": "00:51:34.430",
+      "headline": "The Sunnah Guidance on Where Men Should Wear Rings",
+      "confidence": 0.95,
+      "flag": null
+    },
+    {
+      "id": "0491-08",
+      "start": "00:52:39.980",
+      "end": "00:54:06.640",
+      "headline": "The Qibla Is a Direction, Not a Single Point",
+      "confidence": 0.98,
+      "flag": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0051-04",
+    "series":  "DropsofKnowledge",
+    "episode":  "0051",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "When Good People Stay Silent, Evil Can Spread",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "kabair.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\kabair_0051\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:30:06.620",
+                   "end":  "00:31:34.720",
+                   "duration_sec":  88.1
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0051-04/clip.mp4",
+    "caption_cues":  31
+}

@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0491-01",
+    "series":  "Dropsofknowledge",
+    "episode":  "0491",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Do Not Speak About What You Do Not Know",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "adab.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\adab_0491\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:10:07.430",
+                   "end":  "00:11:10.330",
+                   "duration_sec":  62.9
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0491-01/clip.mp4",
+    "caption_cues":  31
+}

@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0051-05",
+    "series":  "DropsofKnowledge",
+    "episode":  "0051",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Why Muslims Must Encourage Good and Resist Evil",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "kabair.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\kabair_0051\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:40:52.760",
+                   "end":  "00:42:20.460",
+                   "duration_sec":  87.7
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0051-05/clip.mp4",
+    "caption_cues":  33
+}

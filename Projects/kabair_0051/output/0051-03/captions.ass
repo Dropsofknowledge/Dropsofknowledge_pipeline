@@ -1,0 +1,61 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.58,Caption,,0,0,0,,{\pos(540,1238)}the dua inside it is that
+Dialogue: 0,0:00:02.98,0:00:04.80,Caption,,0,0,0,,{\pos(540,1238)}if you are a just ruler
+Dialogue: 0,0:00:04.80,0:00:07.22,Caption,,0,0,0,,{\pos(540,1238)}if you are a just imam
+Dialogue: 0,0:00:07.22,0:00:10.54,Caption,,0,0,0,,{\pos(540,1238)}if you are a just controller
+Dialogue: 0,0:00:10.54,0:00:11.90,Caption,,0,0,0,,{\pos(540,1238)}wherever you are
+Dialogue: 0,0:00:11.90,0:00:14.33,Caption,,0,0,0,,{\pos(540,1238)}you control something from\Nthe affairs of
+Dialogue: 0,0:00:14.33,0:00:16.76,Caption,,0,0,0,,{\pos(540,1238)}the generality of the people
+Dialogue: 0,0:00:16.76,0:00:19.16,Caption,,0,0,0,,{\pos(540,1238)}and you do it well
+Dialogue: 0,0:00:19.16,0:00:23.27,Caption,,0,0,0,,{\pos(540,1238)}O Allah be easy,
+Dialogue: 0,0:00:23.27,0:00:27.38,Caption,,0,0,0,,{\pos(540,1238)}be kind with these kinds of\Npeople
+Dialogue: 0,0:00:30.78,0:00:32.50,Caption,,0,0,0,,{\pos(540,1238)}O Allah those who make things\Ndifficult
+Dialogue: 0,0:00:32.50,0:00:34.22,Caption,,0,0,0,,{\pos(540,1238)}for the people
+Dialogue: 0,0:00:34.22,0:00:36.22,Caption,,0,0,0,,{\pos(540,1238)}punish them
+Dialogue: 0,0:00:36.22,0:00:38.42,Caption,,0,0,0,,{\pos(540,1238)}this was the dua of the\Nprophet
+Dialogue: 0,0:00:38.42,0:00:40.61,Caption,,0,0,0,,{\pos(540,1238)}Muhammad
+Dialogue: 0,0:00:42.48,0:00:45.52,Caption,,0,0,0,,{\pos(540,1238)}and the dua has two wings
+Dialogue: 0,0:00:46.05,0:00:47.62,Caption,,0,0,0,,{\pos(540,1238)}the wing of goodness
+Dialogue: 0,0:00:48.22,0:00:51.38,Caption,,0,0,0,,{\pos(540,1238)}for those who rule with\Ngoodness
+Dialogue: 0,0:00:51.87,0:00:53.76,Caption,,0,0,0,,{\pos(540,1238)}and the wing of punishment
+Dialogue: 0,0:00:53.76,0:00:56.86,Caption,,0,0,0,,{\pos(540,1238)}for those who are unfair to\Nthe
+Dialogue: 0,0:00:56.86,0:00:59.96,Caption,,0,0,0,,{\pos(540,1238)}generality of the people
+Dialogue: 0,0:00:59.96,0:01:02.00,Caption,,0,0,0,,{\pos(540,1238)}may Allah protect us
+Dialogue: 0,0:01:02.00,0:01:04.40,Caption,,0,0,0,,{\pos(540,1238)}there is one big lesson here
+Dialogue: 0,0:01:04.40,0:01:06.82,Caption,,0,0,0,,{\pos(540,1238)}these days we usually talk\Nabout
+Dialogue: 0,0:01:06.82,0:01:08.40,Caption,,0,0,0,,{\pos(540,1238)}good governance, good\Ngovernance
+Dialogue: 0,0:01:08.40,0:01:10.30,Caption,,0,0,0,,{\pos(540,1238)}you can see
+Dialogue: 0,0:01:10.30,0:01:11.62,Caption,,0,0,0,,{\pos(540,1238)}the prophet prayed
+Dialogue: 0,0:01:11.62,0:01:13.58,Caption,,0,0,0,,{\pos(540,1238)}the anger of Allah
+Dialogue: 0,0:01:13.58,0:01:15.33,Caption,,0,0,0,,{\pos(540,1238)}and the punishment of Allah\Nupon those
+Dialogue: 0,0:01:15.33,0:01:17.08,Caption,,0,0,0,,{\pos(540,1238)}who punish you
+Dialogue: 0,0:01:17.08,0:01:19.88,Caption,,0,0,0,,{\pos(540,1238)}it is compulsory that any\NMuslim
+Dialogue: 0,0:01:19.88,0:01:22.00,Caption,,0,0,0,,{\pos(540,1238)}any Muslim who takes up
+Dialogue: 0,0:01:22.68,0:01:24.22,Caption,,0,0,0,,{\pos(540,1238)}the position of leadership
+Dialogue: 0,0:01:24.94,0:01:26.48,Caption,,0,0,0,,{\pos(540,1238)}maybe as a governor
+Dialogue: 0,0:01:27.34,0:01:29.02,Caption,,0,0,0,,{\pos(540,1238)}maybe as a commissioner
+Dialogue: 0,0:01:29.96,0:01:32.60,Caption,,0,0,0,,{\pos(540,1238)}maybe as a head of a\Nparastatal
+Dialogue: 0,0:01:33.22,0:01:34.91,Caption,,0,0,0,,{\pos(540,1238)}maybe as a head of an agency
+Dialogue: 0,0:01:34.91,0:01:36.60,Caption,,0,0,0,,{\pos(540,1238)}of government
+Dialogue: 0,0:01:36.60,0:01:38.88,Caption,,0,0,0,,{\pos(540,1238)}and then you are harsh
+Dialogue: 0,0:01:38.88,0:01:41.34,Caption,,0,0,0,,{\pos(540,1238)}you punish the people
+Dialogue: 0,0:01:41.34,0:01:42.92,Caption,,0,0,0,,{\pos(540,1238)}there is a dua of the prophet
+Dialogue: 0,0:01:42.92,0:01:44.13,Caption,,0,0,0,,{\pos(540,1238)}that will come to you because\Nof
+Dialogue: 0,0:01:44.13,0:01:45.34,Caption,,0,0,0,,{\pos(540,1238)}your behaviour
+Dialogue: 0,0:01:45.34,0:01:47.66,Caption,,0,0,0,,{\pos(540,1238)}and when you are nice
+Dialogue: 0,0:01:49.22,0:01:51.46,Caption,,0,0,0,,{\pos(540,1238)}you are kind to us
+Dialogue: 0,0:01:51.46,0:01:53.12,Caption,,0,0,0,,{\pos(540,1238)}you favour us
+Dialogue: 0,0:01:53.12,0:01:55.06,Caption,,0,0,0,,{\pos(540,1238)}you are easy with us
+

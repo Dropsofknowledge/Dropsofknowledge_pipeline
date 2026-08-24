@@ -1,0 +1,66 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.76,Caption,,0,0,0,,{\pos(540,1163)}most
+Dialogue: 0,0:00:02.10,0:00:02.86,Caption,,0,0,0,,{\pos(540,1163)}distasteful
+Dialogue: 0,0:00:02.86,0:00:04.02,Caption,,0,0,0,,{\pos(540,1163)}self defeat
+Dialogue: 0,0:00:04.02,0:00:05.74,Caption,,0,0,0,,{\pos(540,1163)}about Allah
+Dialogue: 0,0:00:05.74,0:00:08.60,Caption,,0,0,0,,{\pos(540,1163)}you are really really\Ndeceiving yourself
+Dialogue: 0,0:00:08.60,0:00:09.62,Caption,,0,0,0,,{\pos(540,1163)}regarding Allah
+Dialogue: 0,0:00:09.62,0:00:10.96,Caption,,0,0,0,,{\pos(540,1163)}when you think that because\Nof the
+Dialogue: 0,0:00:10.96,0:00:12.30,Caption,,0,0,0,,{\pos(540,1163)}wealth
+Dialogue: 0,0:00:12.30,0:00:13.22,Caption,,0,0,0,,{\pos(540,1163)}that you enjoy
+Dialogue: 0,0:00:13.22,0:00:15.30,Caption,,0,0,0,,{\pos(540,1163)}because of the comfort and\Nluxury that
+Dialogue: 0,0:00:15.30,0:00:17.38,Caption,,0,0,0,,{\pos(540,1163)}you have
+Dialogue: 0,0:00:17.38,0:00:18.98,Caption,,0,0,0,,{\pos(540,1163)}that means that Allah
+Dialogue: 0,0:00:18.98,0:00:20.24,Caption,,0,0,0,,{\pos(540,1163)}loves you
+Dialogue: 0,0:00:20.24,0:00:22.26,Caption,,0,0,0,,{\pos(540,1163)}so irrespective of your deeds
+Dialogue: 0,0:00:22.26,0:00:24.68,Caption,,0,0,0,,{\pos(540,1163)}as long as you are luxurious
+Dialogue: 0,0:00:24.68,0:00:25.60,Caption,,0,0,0,,{\pos(540,1163)}and comfortable
+Dialogue: 0,0:00:26.26,0:00:27.88,Caption,,0,0,0,,{\pos(540,1163)}that means Allah loves you
+Dialogue: 0,0:00:27.88,0:00:29.16,Caption,,0,0,0,,{\pos(540,1163)}there are a lot of people\Nthinking
+Dialogue: 0,0:00:29.16,0:00:30.44,Caption,,0,0,0,,{\pos(540,1163)}like this
+Dialogue: 0,0:00:30.44,0:00:31.65,Caption,,0,0,0,,{\pos(540,1163)}that when there is money what\Nis
+Dialogue: 0,0:00:31.65,0:00:32.86,Caption,,0,0,0,,{\pos(540,1163)}left
+Dialogue: 0,0:00:32.86,0:00:34.46,Caption,,0,0,0,,{\pos(540,1163)}when there is wealth
+Dialogue: 0,0:00:34.46,0:00:36.60,Caption,,0,0,0,,{\pos(540,1163)}what is left, we have\Neverything
+Dialogue: 0,0:00:37.60,0:00:38.64,Caption,,0,0,0,,{\pos(540,1163)}I heard
+Dialogue: 0,0:00:38.64,0:00:40.06,Caption,,0,0,0,,{\pos(540,1163)}one in a discussion
+Dialogue: 0,0:00:40.06,0:00:42.34,Caption,,0,0,0,,{\pos(540,1163)}I read we were having
+Dialogue: 0,0:00:42.34,0:00:44.38,Caption,,0,0,0,,{\pos(540,1163)}a discussion with someone who\Nis
+Dialogue: 0,0:00:44.38,0:00:45.28,Caption,,0,0,0,,{\pos(540,1163)}supposed to be learned
+Dialogue: 0,0:00:46.10,0:00:48.60,Caption,,0,0,0,,{\pos(540,1163)}this person sees nothing\Nwrong
+Dialogue: 0,0:00:49.34,0:00:50.26,Caption,,0,0,0,,{\pos(540,1163)}in trading
+Dialogue: 0,0:00:50.26,0:00:51.54,Caption,,0,0,0,,{\pos(540,1163)}in riba
+Dialogue: 0,0:00:52.54,0:00:54.08,Caption,,0,0,0,,{\pos(540,1163)}he was arguing
+Dialogue: 0,0:00:54.08,0:00:56.62,Caption,,0,0,0,,{\pos(540,1163)}in an argument he said\Nsomething
+Dialogue: 0,0:00:56.62,0:00:58.34,Caption,,0,0,0,,{\pos(540,1163)}he said if the
+Dialogue: 0,0:00:58.34,0:01:00.32,Caption,,0,0,0,,{\pos(540,1163)}Europeans and the western\Nworld
+Dialogue: 0,0:01:01.02,0:01:03.46,Caption,,0,0,0,,{\pos(540,1163)}if they deal in riba
+Dialogue: 0,0:01:03.46,0:01:04.50,Caption,,0,0,0,,{\pos(540,1163)}yet we see
+Dialogue: 0,0:01:04.50,0:01:06.32,Caption,,0,0,0,,{\pos(540,1163)}them in the opulence that we\Nhave
+Dialogue: 0,0:01:06.32,0:01:08.18,Caption,,0,0,0,,{\pos(540,1163)}seen them, then it means
+Dialogue: 0,0:01:08.18,0:01:10.54,Caption,,0,0,0,,{\pos(540,1163)}there is nothing wrong with\Nthe riba
+Dialogue: 0,0:01:10.54,0:01:12.50,Caption,,0,0,0,,{\pos(540,1163)}this is what Ibn al Qaim said
+Dialogue: 0,0:01:13.32,0:01:13.92,Caption,,0,0,0,,{\pos(540,1163)}rahimahullah
+Dialogue: 0,0:01:13.92,0:01:16.48,Caption,,0,0,0,,{\pos(540,1163)}wa hadha min aqbahil gurur
+Dialogue: 0,0:01:16.48,0:01:18.46,Caption,,0,0,0,,{\pos(540,1163)}billah, this is from the
+Dialogue: 0,0:01:18.46,0:01:19.90,Caption,,0,0,0,,{\pos(540,1163)}most distasteful
+Dialogue: 0,0:01:20.46,0:01:22.54,Caption,,0,0,0,,{\pos(540,1163)}did Allah not say to us that
+Dialogue: 0,0:01:26.72,0:01:28.78,Caption,,0,0,0,,{\pos(540,1163)}do not be deceived
+Dialogue: 0,0:01:28.78,0:01:30.12,Caption,,0,0,0,,{\pos(540,1163)}with the
+Dialogue: 0,0:01:30.12,0:01:32.88,Caption,,0,0,0,,{\pos(540,1163)}thoughts and backwards of\Nkufar
+Dialogue: 0,0:01:32.88,0:01:34.52,Caption,,0,0,0,,{\pos(540,1163)}in luxury and comfort
+Dialogue: 0,0:01:34.52,0:01:35.71,Caption,,0,0,0,,{\pos(540,1163)}in this dunya, don't be\Ndeceived by
+Dialogue: 0,0:01:35.71,0:01:36.90,Caption,,0,0,0,,{\pos(540,1163)}it
+

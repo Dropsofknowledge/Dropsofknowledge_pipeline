@@ -34,7 +34,7 @@ try {
     Write-Host "Files copied:    $((@($res.Copied)) -join ', ')"
     Write-Host ""
     Write-Host "Next steps:" -ForegroundColor Cyan
-    Write-Host "  1. Place/generate clip_plan.json in the project folder."
+    Write-Host "  1. Place/generate clip_plan.json and, if needed, layout.json / background.* in the source folder."
     Write-Host "  2. Double-click RUN_PROJECT.cmd in that folder to render."
 } catch {
     Write-Host "Import failed: $($_.Exception.Message)" -ForegroundColor Red

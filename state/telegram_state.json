@@ -1,0 +1,44 @@
+{
+  "groups": {
+    "1436110603": {
+      "processed": {
+        "5003": {
+          "file": "Downloads/Telegram/At-Tasfiyah wat-Tarbiya/5003_Forgive and Be Forgiven.ogg",
+          "bytes": 36212406,
+          "kind": "audio",
+          "date": "2026-08-23T11:25:58+00:00",
+          "downloaded_at": "2026-08-23T21:21:30Z"
+        },
+        "4948": {
+          "file": "Downloads/Telegram/At-Tasfiyah wat-Tarbiya/4948_059 Ad-Daau wa-Dawaa_20260728.amr",
+          "bytes": 5278617,
+          "kind": "audio",
+          "date": "2026-07-30T08:31:14+00:00",
+          "downloaded_at": "2026-08-23T21:22:05Z"
+        },
+        "4947": {
+          "file": "Downloads/Telegram/At-Tasfiyah wat-Tarbiya/4947_058 Ad-Daau wa-Dawaa_20260721.amr",
+          "bytes": 4887609,
+          "kind": "audio",
+          "date": "2026-07-30T08:30:58+00:00",
+          "downloaded_at": "2026-08-23T21:22:37Z"
+        },
+        "4946": {
+          "file": "Downloads/Telegram/At-Tasfiyah wat-Tarbiya/4946_057 Ad-Daau wa-Dawaa_20260714.amr",
+          "bytes": 4671489,
+          "kind": "audio",
+          "date": "2026-07-30T08:30:42+00:00",
+          "downloaded_at": "2026-08-23T21:23:09Z"
+        },
+        "4931": {
+          "file": "Downloads/Telegram/At-Tasfiyah wat-Tarbiya/4931_051 Kitaab Al Kabair_20260724.amr",
+          "bytes": 4611753,
+          "kind": "audio",
+          "date": "2026-07-25T15:12:04+00:00",
+          "downloaded_at": "2026-08-23T21:23:39Z"
+        }
+      },
+      "last_message_id": 5003
+    }
+  }
+}

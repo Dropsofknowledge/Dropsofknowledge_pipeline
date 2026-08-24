@@ -1,0 +1,37 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.73,Caption,,0,0,0,,{\pos(540,1163)}That Mu'min, he therefore\Nmade his deeds
+Dialogue: 0,0:00:01.73,0:00:03.46,Caption,,0,0,0,,{\pos(540,1163)}to be good.
+Dialogue: 0,0:00:03.46,0:00:05.30,Caption,,0,0,0,,{\pos(540,1163)}I want good from Allah.
+Dialogue: 0,0:00:05.30,0:00:07.14,Caption,,0,0,0,,{\pos(540,1163)}Let me use good deeds.
+Dialogue: 0,0:00:08.40,0:00:09.81,Caption,,0,0,0,,{\pos(540,1163)}I want protection from Allah.
+Dialogue: 0,0:00:09.81,0:00:11.22,Caption,,0,0,0,,{\pos(540,1163)}Let me make Salat.
+Dialogue: 0,0:00:12.50,0:00:14.13,Caption,,0,0,0,,{\pos(540,1163)}I want progress. I want\Ngoodness for
+Dialogue: 0,0:00:14.13,0:00:15.76,Caption,,0,0,0,,{\pos(540,1163)}my children.
+Dialogue: 0,0:00:15.90,0:00:17.94,Caption,,0,0,0,,{\pos(540,1163)}Let me make haste towards\Nthat.
+Dialogue: 0,0:00:20.02,0:00:21.94,Caption,,0,0,0,,{\pos(540,1163)}The person of Iman,
+Dialogue: 0,0:00:25.40,0:00:28.00,Caption,,0,0,0,,{\pos(540,1163)}He hopes for goodness from\Nhis Lord.
+Dialogue: 0,0:00:30.60,0:00:31.55,Caption,,0,0,0,,{\pos(540,1163)}So he makes his good to be
+Dialogue: 0,0:00:31.55,0:00:32.50,Caption,,0,0,0,,{\pos(540,1163)}good.
+Dialogue: 0,0:00:33.06,0:00:35.20,Caption,,0,0,0,,{\pos(540,1163)}Why? He is expecting goodness\Nfrom Allah.
+Dialogue: 0,0:00:37.64,0:00:39.26,Caption,,0,0,0,,{\pos(540,1163)}As for the criminal,
+Dialogue: 0,0:00:42.04,0:00:43.37,Caption,,0,0,0,,{\pos(540,1163)}He is not thinking.
+Dialogue: 0,0:00:43.37,0:00:44.71,Caption,,0,0,0,,{\pos(540,1163)}He is thinking about Allah is\Nnot
+Dialogue: 0,0:00:44.71,0:00:46.04,Caption,,0,0,0,,{\pos(540,1163)}positive.
+Dialogue: 0,0:00:48.16,0:00:50.04,Caption,,0,0,0,,{\pos(540,1163)}So his deeds are bad.
+Dialogue: 0,0:00:51.20,0:00:52.63,Caption,,0,0,0,,{\pos(540,1163)}Bad deeds make you think evil\Nabout
+Dialogue: 0,0:00:52.63,0:00:54.06,Caption,,0,0,0,,{\pos(540,1163)}Allah.
+Dialogue: 0,0:00:54.80,0:00:56.67,Caption,,0,0,0,,{\pos(540,1163)}But it would be unfortunate\Nif the
+Dialogue: 0,0:00:56.67,0:00:58.54,Caption,,0,0,0,,{\pos(540,1163)}individual is upon evil\Ndeeds.
+

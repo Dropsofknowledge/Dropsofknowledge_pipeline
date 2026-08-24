@@ -1,0 +1,69 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.99,Caption,,0,0,0,,{\pos(540,1163)}A woman is giving conditions
+Dialogue: 0,0:00:01.99,0:00:03.63,Caption,,0,0,0,,{\pos(540,1163)}before she gets into a\Nmarriage
+Dialogue: 0,0:00:04.20,0:00:06.59,Caption,,0,0,0,,{\pos(540,1163)}If the condition is lawful
+Dialogue: 0,0:00:06.59,0:00:08.13,Caption,,0,0,0,,{\pos(540,1163)}If a condition
+Dialogue: 0,0:00:08.13,0:00:09.49,Caption,,0,0,0,,{\pos(540,1163)}is not a condition
+Dialogue: 0,0:00:10.04,0:00:12.33,Caption,,0,0,0,,{\pos(540,1163)}that makes halal, haram
+Dialogue: 0,0:00:12.33,0:00:13.64,Caption,,0,0,0,,{\pos(540,1163)}or that makes haram,
+Dialogue: 0,0:00:13.64,0:00:14.95,Caption,,0,0,0,,{\pos(540,1163)}halal
+Dialogue: 0,0:00:14.95,0:00:16.51,Caption,,0,0,0,,{\pos(540,1163)}Then the man
+Dialogue: 0,0:00:16.51,0:00:18.11,Caption,,0,0,0,,{\pos(540,1163)}accepts those conditions
+Dialogue: 0,0:00:18.11,0:00:20.15,Caption,,0,0,0,,{\pos(540,1163)}The marriage is lawful
+Dialogue: 0,0:00:20.15,0:00:22.43,Caption,,0,0,0,,{\pos(540,1163)}And it is lawful
+Dialogue: 0,0:00:22.43,0:00:23.36,Caption,,0,0,0,,{\pos(540,1163)}For a man to accept that kind
+Dialogue: 0,0:00:23.36,0:00:24.29,Caption,,0,0,0,,{\pos(540,1163)}of a marriage
+Dialogue: 0,0:00:24.29,0:00:25.35,Caption,,0,0,0,,{\pos(540,1163)}There is a condition
+Dialogue: 0,0:00:25.35,0:00:28.15,Caption,,0,0,0,,{\pos(540,1163)}This condition is not\Nchanging halal
+Dialogue: 0,0:00:28.15,0:00:29.35,Caption,,0,0,0,,{\pos(540,1163)}to haram
+Dialogue: 0,0:00:29.35,0:00:32.43,Caption,,0,0,0,,{\pos(540,1163)}Neither is it changing haram\Nto halal
+Dialogue: 0,0:00:33.05,0:00:34.73,Caption,,0,0,0,,{\pos(540,1163)}Then it is lawful
+Dialogue: 0,0:00:34.73,0:00:36.33,Caption,,0,0,0,,{\pos(540,1163)}And it is very necessary
+Dialogue: 0,0:00:36.33,0:00:38.39,Caption,,0,0,0,,{\pos(540,1163)}for the man to fulfill it
+Dialogue: 0,0:00:38.39,0:00:40.33,Caption,,0,0,0,,{\pos(540,1163)}Because the prophet told us\Nabout that
+Dialogue: 0,0:00:40.33,0:00:41.73,Caption,,0,0,0,,{\pos(540,1163)}Alayhi Salatu Salam
+Dialogue: 0,0:00:41.73,0:00:43.08,Caption,,0,0,0,,{\pos(540,1163)}From the strongest conditions\Na man must
+Dialogue: 0,0:00:43.08,0:00:44.43,Caption,,0,0,0,,{\pos(540,1163)}fulfill
+Dialogue: 0,0:00:45.57,0:00:46.17,Caption,,0,0,0,,{\pos(540,1163)}must
+Dialogue: 0,0:00:48.73,0:00:49.93,Caption,,0,0,0,,{\pos(540,1163)}are those
+Dialogue: 0,0:00:49.93,0:00:51.59,Caption,,0,0,0,,{\pos(540,1163)}conditions by which
+Dialogue: 0,0:00:51.59,0:00:53.65,Caption,,0,0,0,,{\pos(540,1163)}the women became lawful
+Dialogue: 0,0:00:53.65,0:00:54.99,Caption,,0,0,0,,{\pos(540,1163)}for you to near them
+Dialogue: 0,0:00:55.59,0:00:57.71,Caption,,0,0,0,,{\pos(540,1163)}So if at the beginning of the
+Dialogue: 0,0:00:57.71,0:00:59.69,Caption,,0,0,0,,{\pos(540,1163)}Nikah you gave a
+Dialogue: 0,0:00:59.69,0:01:00.63,Caption,,0,0,0,,{\pos(540,1163)}condition
+Dialogue: 0,0:01:01.35,0:01:03.15,Caption,,0,0,0,,{\pos(540,1163)}Conditions are different from\Npromises
+Dialogue: 0,0:01:03.15,0:01:04.01,Caption,,0,0,0,,{\pos(540,1163)}You can just promise,
+Dialogue: 0,0:01:04.01,0:01:04.87,Caption,,0,0,0,,{\pos(540,1163)}we promise that
+Dialogue: 0,0:01:04.87,0:01:06.17,Caption,,0,0,0,,{\pos(540,1163)}But it's a condition,
+Dialogue: 0,0:01:06.17,0:01:07.47,Caption,,0,0,0,,{\pos(540,1163)}I will not marry you
+Dialogue: 0,0:01:07.47,0:01:09.39,Caption,,0,0,0,,{\pos(540,1163)}unless you agree to these\Nthings
+Dialogue: 0,0:01:09.39,0:01:10.91,Caption,,0,0,0,,{\pos(540,1163)}These are different
+Dialogue: 0,0:01:10.91,0:01:13.29,Caption,,0,0,0,,{\pos(540,1163)}They are stronger than just\Npromising
+Dialogue: 0,0:01:13.29,0:01:15.27,Caption,,0,0,0,,{\pos(540,1163)}It's just like promising good\Ndealings
+Dialogue: 0,0:01:15.27,0:01:17.19,Caption,,0,0,0,,{\pos(540,1163)}Promising this, promising\Nthat
+Dialogue: 0,0:01:17.19,0:01:19.59,Caption,,0,0,0,,{\pos(540,1163)}Promises are strong in the\NSharia
+Dialogue: 0,0:01:19.59,0:01:21.57,Caption,,0,0,0,,{\pos(540,1163)}And from the ways of\NMunafikun
+Dialogue: 0,0:01:21.57,0:01:22.61,Caption,,0,0,0,,{\pos(540,1163)}Is that
+Dialogue: 0,0:01:25.40,0:01:26.65,Caption,,0,0,0,,{\pos(540,1163)}When he promises
+Dialogue: 0,0:01:26.65,0:01:28.89,Caption,,0,0,0,,{\pos(540,1163)}He fails the promise
+Dialogue: 0,0:01:28.89,0:01:31.43,Caption,,0,0,0,,{\pos(540,1163)}So promises are strong too
+Dialogue: 0,0:01:31.43,0:01:32.75,Caption,,0,0,0,,{\pos(540,1163)}But these
+Dialogue: 0,0:01:32.75,0:01:35.29,Caption,,0,0,0,,{\pos(540,1163)}When they occur as shurut
+Dialogue: 0,0:01:35.29,0:01:36.53,Caption,,0,0,0,,{\pos(540,1163)}They are stronger
+Dialogue: 0,0:01:37.53,0:01:39.35,Caption,,0,0,0,,{\pos(540,1163)}When they occur as shurut
+Dialogue: 0,0:01:39.35,0:01:40.54,Caption,,0,0,0,,{\pos(540,1163)}As conditions for marriage,
+Dialogue: 0,0:01:40.54,0:01:41.73,Caption,,0,0,0,,{\pos(540,1163)}they are stronger
+

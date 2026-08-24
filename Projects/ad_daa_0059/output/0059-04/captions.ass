@@ -1,0 +1,42 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.14,Caption,,0,0,0,,{\pos(540,1163)}What is the worth of this\Ndunya
+Dialogue: 0,0:00:03.14,0:00:06.48,Caption,,0,0,0,,{\pos(540,1163)}If you compare it to akhirah
+Dialogue: 0,0:00:10.56,0:00:12.02,Caption,,0,0,0,,{\pos(540,1163)}Accept us
+Dialogue: 0,0:00:12.02,0:00:14.50,Caption,,0,0,0,,{\pos(540,1163)}Any one of you
+Dialogue: 0,0:00:14.50,0:00:18.40,Caption,,0,0,0,,{\pos(540,1163)}Will insert his finger
+Dialogue: 0,0:00:18.40,0:00:21.34,Caption,,0,0,0,,{\pos(540,1163)}Inside the ocean
+Dialogue: 0,0:00:24.34,0:00:27.00,Caption,,0,0,0,,{\pos(540,1163)}Let him see what is it that
+Dialogue: 0,0:00:27.00,0:00:30.28,Caption,,0,0,0,,{\pos(540,1163)}That finger will bring out\Nfrom water
+Dialogue: 0,0:00:30.28,0:00:32.80,Caption,,0,0,0,,{\pos(540,1163)}The comparison, the\Nillustration of the vast
+Dialogue: 0,0:00:32.80,0:00:35.32,Caption,,0,0,0,,{\pos(540,1163)}difference
+Dialogue: 0,0:00:36.32,0:00:38.32,Caption,,0,0,0,,{\pos(540,1163)}Between the joy
+Dialogue: 0,0:00:38.32,0:00:39.78,Caption,,0,0,0,,{\pos(540,1163)}Between the comfort
+Dialogue: 0,0:00:39.78,0:00:42.62,Caption,,0,0,0,,{\pos(540,1163)}Between the luxury of this\Ndunya
+Dialogue: 0,0:00:42.62,0:00:44.35,Caption,,0,0,0,,{\pos(540,1163)}And the joy and the luxury of
+Dialogue: 0,0:00:44.35,0:00:46.08,Caption,,0,0,0,,{\pos(540,1163)}the goodness
+Dialogue: 0,0:00:46.08,0:00:48.50,Caption,,0,0,0,,{\pos(540,1163)}And all of these of akhirah
+Dialogue: 0,0:00:48.50,0:00:50.30,Caption,,0,0,0,,{\pos(540,1163)}Is that place one finger into\Nthe
+Dialogue: 0,0:00:50.30,0:00:52.10,Caption,,0,0,0,,{\pos(540,1163)}water
+Dialogue: 0,0:00:52.10,0:00:53.36,Caption,,0,0,0,,{\pos(540,1163)}To the ocean
+Dialogue: 0,0:00:54.32,0:00:55.66,Caption,,0,0,0,,{\pos(540,1163)}Atlantic, Pacific
+Dialogue: 0,0:00:56.08,0:00:58.02,Caption,,0,0,0,,{\pos(540,1163)}Place one finger into it
+Dialogue: 0,0:00:58.02,0:00:59.96,Caption,,0,0,0,,{\pos(540,1163)}Remove the finger
+Dialogue: 0,0:00:59.96,0:01:01.75,Caption,,0,0,0,,{\pos(540,1163)}Can you compare the quantity\Nof water
+Dialogue: 0,0:01:01.75,0:01:03.54,Caption,,0,0,0,,{\pos(540,1163)}on your hands
+Dialogue: 0,0:01:03.54,0:01:04.97,Caption,,0,0,0,,{\pos(540,1163)}To the quantity of water in\Nthe
+Dialogue: 0,0:01:04.97,0:01:06.40,Caption,,0,0,0,,{\pos(540,1163)}ocean
+Dialogue: 0,0:01:06.40,0:01:09.10,Caption,,0,0,0,,{\pos(540,1163)}That is the similarity
+Dialogue: 0,0:01:09.10,0:01:11.68,Caption,,0,0,0,,{\pos(540,1163)}That is how small this dunya\Nis
+

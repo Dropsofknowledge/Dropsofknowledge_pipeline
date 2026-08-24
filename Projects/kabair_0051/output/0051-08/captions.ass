@@ -1,0 +1,62 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.33,Caption,,0,0,0,,{\pos(540,1238)}One of the companions was\Nreported to
+Dialogue: 0,0:00:01.33,0:00:02.66,Caption,,0,0,0,,{\pos(540,1238)}him.
+Dialogue: 0,0:00:03.78,0:00:05.95,Caption,,0,0,0,,{\pos(540,1238)}The wife reported to the\Nbrother who
+Dialogue: 0,0:00:05.95,0:00:08.12,Caption,,0,0,0,,{\pos(540,1238)}came to visit him.
+Dialogue: 0,0:00:08.52,0:00:09.96,Caption,,0,0,0,,{\pos(540,1238)}In Medina.
+Dialogue: 0,0:00:10.42,0:00:11.97,Caption,,0,0,0,,{\pos(540,1238)}And that one went to report\Nto
+Dialogue: 0,0:00:11.97,0:00:13.52,Caption,,0,0,0,,{\pos(540,1238)}the Prophet Sallallahu Alaihi\NWasallam.
+Dialogue: 0,0:00:13.64,0:00:15.66,Caption,,0,0,0,,{\pos(540,1238)}This companion, that was\NAbdullah Ibn Amr
+Dialogue: 0,0:00:15.66,0:00:17.68,Caption,,0,0,0,,{\pos(540,1238)}al-As.
+Dialogue: 0,0:00:17.68,0:00:19.27,Caption,,0,0,0,,{\pos(540,1238)}He did notice to sleep in the
+Dialogue: 0,0:00:19.27,0:00:20.86,Caption,,0,0,0,,{\pos(540,1238)}night.
+Dialogue: 0,0:00:21.88,0:00:24.32,Caption,,0,0,0,,{\pos(540,1238)}And he would fast every day.
+Dialogue: 0,0:00:26.06,0:00:27.30,Caption,,0,0,0,,{\pos(540,1238)}So his wife was feeling.
+Dialogue: 0,0:00:27.62,0:00:29.10,Caption,,0,0,0,,{\pos(540,1238)}He would not come near the\Nwife.
+Dialogue: 0,0:00:29.90,0:00:31.11,Caption,,0,0,0,,{\pos(540,1238)}The Prophet didn't like it\NSallallahu Alaihi
+Dialogue: 0,0:00:31.11,0:00:32.32,Caption,,0,0,0,,{\pos(540,1238)}Wasallam.
+Dialogue: 0,0:00:32.74,0:00:35.26,Caption,,0,0,0,,{\pos(540,1238)}Something similar to that was\Nreported about
+Dialogue: 0,0:00:35.26,0:00:37.78,Caption,,0,0,0,,{\pos(540,1238)}Abul Zerrin al-Ghifari also.
+Dialogue: 0,0:00:39.24,0:00:40.10,Caption,,0,0,0,,{\pos(540,1238)}So Ekhwa.
+Dialogue: 0,0:00:40.80,0:00:42.86,Caption,,0,0,0,,{\pos(540,1238)}Those who go beyond limits.
+Dialogue: 0,0:00:44.40,0:00:45.14,Caption,,0,0,0,,{\pos(540,1238)}Ghalin Fidin.
+Dialogue: 0,0:00:45.18,0:00:46.74,Caption,,0,0,0,,{\pos(540,1238)}We just explained Gulu Fidin.
+Dialogue: 0,0:00:46.74,0:00:49.78,Caption,,0,0,0,,{\pos(540,1238)}For example fasting\Nthroughout the day time.
+Dialogue: 0,0:00:49.82,0:00:50.98,Caption,,0,0,0,,{\pos(540,1238)}Never breaking fast.
+Dialogue: 0,0:00:51.82,0:00:53.74,Caption,,0,0,0,,{\pos(540,1238)}Or never observing sleep.
+Dialogue: 0,0:00:53.84,0:00:54.76,Caption,,0,0,0,,{\pos(540,1238)}Not sleeping.
+Dialogue: 0,0:00:57.08,0:01:01.08,Caption,,0,0,0,,{\pos(540,1238)}Wa inna li jasadika alayka\Nhaqqan.
+Dialogue: 0,0:01:01.24,0:01:02.25,Caption,,0,0,0,,{\pos(540,1238)}And your body has a right\Nover
+Dialogue: 0,0:01:02.25,0:01:03.26,Caption,,0,0,0,,{\pos(540,1238)}you.
+Dialogue: 0,0:01:03.54,0:01:04.88,Caption,,0,0,0,,{\pos(540,1238)}So sleep sometimes.
+Dialogue: 0,0:01:05.58,0:01:06.70,Caption,,0,0,0,,{\pos(540,1238)}Wake up sometimes.
+Dialogue: 0,0:01:07.94,0:01:09.88,Caption,,0,0,0,,{\pos(540,1238)}Some people abandon their\Nwives.
+Dialogue: 0,0:01:10.22,0:01:12.84,Caption,,0,0,0,,{\pos(540,1238)}Some women abandon their\Nhusbands.
+Dialogue: 0,0:01:13.68,0:01:14.98,Caption,,0,0,0,,{\pos(540,1238)}And making kiamu led.
+Dialogue: 0,0:01:14.98,0:01:16.20,Caption,,0,0,0,,{\pos(540,1238)}And fasting.
+Dialogue: 0,0:01:17.10,0:01:18.19,Caption,,0,0,0,,{\pos(540,1238)}So that's why the husband\Ncannot come
+Dialogue: 0,0:01:18.19,0:01:19.28,Caption,,0,0,0,,{\pos(540,1238)}near her.
+Dialogue: 0,0:01:20.00,0:01:20.90,Caption,,0,0,0,,{\pos(540,1238)}That's why she can't cook for\Nher
+Dialogue: 0,0:01:20.90,0:01:21.80,Caption,,0,0,0,,{\pos(540,1238)}husband.
+Dialogue: 0,0:01:22.58,0:01:23.12,Caption,,0,0,0,,{\pos(540,1238)}This Gulu.
+Dialogue: 0,0:01:24.52,0:01:27.02,Caption,,0,0,0,,{\pos(540,1238)}So the Prophet said alayhi\Nsalatu wassalam.
+Dialogue: 0,0:01:27.32,0:01:29.29,Caption,,0,0,0,,{\pos(540,1238)}So in Fadim, in Ummati ila\Ntana
+Dialogue: 0,0:01:29.29,0:01:31.26,Caption,,0,0,0,,{\pos(540,1238)}luhu ma shafa'ati.
+Dialogue: 0,0:01:31.60,0:01:33.40,Caption,,0,0,0,,{\pos(540,1238)}Two groups of people in my\Nummah.
+Dialogue: 0,0:01:33.68,0:01:35.96,Caption,,0,0,0,,{\pos(540,1238)}My special Shafa'a.
+Dialogue: 0,0:01:36.64,0:01:38.62,Caption,,0,0,0,,{\pos(540,1238)}Mentioned for special people\Nin special situations
+Dialogue: 0,0:01:38.62,0:01:40.60,Caption,,0,0,0,,{\pos(540,1238)}will not reach them.
+Dialogue: 0,0:01:41.56,0:01:42.76,Caption,,0,0,0,,{\pos(540,1238)}The first one.
+

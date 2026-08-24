@@ -1,0 +1,47 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.14,Caption,,0,0,0,,{\pos(540,1238)}You'd rather push him,
+Dialogue: 0,0:00:01.14,0:00:02.28,Caption,,0,0,0,,{\pos(540,1238)}encourage him, adjure him,
+Dialogue: 0,0:00:02.28,0:00:03.42,Caption,,0,0,0,,{\pos(540,1238)}encourage him,
+Dialogue: 0,0:00:03.50,0:00:08.48,Caption,,0,0,0,,{\pos(540,1238)}command him to do what is\Nright.
+Dialogue: 0,0:00:10.68,0:00:13.29,Caption,,0,0,0,,{\pos(540,1238)}You'd rather push him,
+Dialogue: 0,0:00:13.29,0:00:15.90,Caption,,0,0,0,,{\pos(540,1238)}encourage him, to do what is\Nright,
+Dialogue: 0,0:00:16.86,0:00:18.60,Caption,,0,0,0,,{\pos(540,1238)}if you don't do all these\Nthings.
+Dialogue: 0,0:00:20.40,0:00:21.89,Caption,,0,0,0,,{\pos(540,1238)}The other alternative that\Nyou have is
+Dialogue: 0,0:00:21.89,0:00:23.38,Caption,,0,0,0,,{\pos(540,1238)}that
+Dialogue: 0,0:00:23.38,0:00:25.89,Caption,,0,0,0,,{\pos(540,1238)}La yadribanna Allahu bi kulu\Nbi ba'dhikum
+Dialogue: 0,0:00:25.89,0:00:28.40,Caption,,0,0,0,,{\pos(540,1238)}ala ba'dh.
+Dialogue: 0,0:00:28.60,0:00:30.92,Caption,,0,0,0,,{\pos(540,1238)}Oh la yadribanna Allahu bi\Nkulu bi
+Dialogue: 0,0:00:30.92,0:00:33.24,Caption,,0,0,0,,{\pos(540,1238)}ba'dhikum ala ba'dh.
+Dialogue: 0,0:00:33.84,0:00:36.84,Caption,,0,0,0,,{\pos(540,1238)}The alternative you have is\Nthat
+Dialogue: 0,0:00:36.84,0:00:39.21,Caption,,0,0,0,,{\pos(540,1238)}Yadribanna Allahu bi kulu bi\Nba'dhikum ala
+Dialogue: 0,0:00:39.21,0:00:41.58,Caption,,0,0,0,,{\pos(540,1238)}ba'dh.
+Dialogue: 0,0:00:41.92,0:00:44.50,Caption,,0,0,0,,{\pos(540,1238)}Allah will set the hearts of\Nsome
+Dialogue: 0,0:00:44.50,0:00:47.08,Caption,,0,0,0,,{\pos(540,1238)}of you against the others.
+Dialogue: 0,0:00:48.34,0:00:51.30,Caption,,0,0,0,,{\pos(540,1238)}If you don't make al-amru bil\Nma'ruf,
+Dialogue: 0,0:00:52.00,0:00:55.06,Caption,,0,0,0,,{\pos(540,1238)}if you don't make al-nahyuan\Nal-munkar,
+Dialogue: 0,0:00:56.40,0:00:57.93,Caption,,0,0,0,,{\pos(540,1238)}if you don't hold back the\Nhand
+Dialogue: 0,0:00:57.93,0:00:59.46,Caption,,0,0,0,,{\pos(540,1238)}of the Musi,
+Dialogue: 0,0:01:00.00,0:01:03.30,Caption,,0,0,0,,{\pos(540,1238)}wa la ta'akhu dhunna ala\Nyadil Musi,
+Dialogue: 0,0:01:04.34,0:01:06.32,Caption,,0,0,0,,{\pos(540,1238)}oh that, wa la ta'aturunna hu\Nala
+Dialogue: 0,0:01:06.32,0:01:08.30,Caption,,0,0,0,,{\pos(540,1238)}al-Haqqi apra,
+Dialogue: 0,0:01:09.08,0:01:11.69,Caption,,0,0,0,,{\pos(540,1238)}oh that you necessarily push\Nhim and
+Dialogue: 0,0:01:11.69,0:01:14.30,Caption,,0,0,0,,{\pos(540,1238)}encourage him towards Haqq,
+Dialogue: 0,0:01:14.86,0:01:16.64,Caption,,0,0,0,,{\pos(540,1238)}if you don't do these things.
+Dialogue: 0,0:01:17.64,0:01:19.55,Caption,,0,0,0,,{\pos(540,1238)}La yadribanna Allahu bi kulu\Nbi ba'dhikum
+Dialogue: 0,0:01:19.55,0:01:21.46,Caption,,0,0,0,,{\pos(540,1238)}ala ba'dh.
+Dialogue: 0,0:01:21.96,0:01:23.87,Caption,,0,0,0,,{\pos(540,1238)}Oh you Muslims, Allah will\Nturn the
+Dialogue: 0,0:01:23.87,0:01:25.79,Caption,,0,0,0,,{\pos(540,1238)}hearts of some of you against\Nthe
+Dialogue: 0,0:01:25.79,0:01:27.70,Caption,,0,0,0,,{\pos(540,1238)}others.
+

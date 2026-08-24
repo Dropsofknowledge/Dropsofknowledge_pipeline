@@ -1,0 +1,63 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.92,0:00:03.09,Caption,,0,0,0,,{\pos(540,1238)}The prophet sallallahu alayhi\Nwa ala salam
+Dialogue: 0,0:00:03.09,0:00:05.26,Caption,,0,0,0,,{\pos(540,1238)}told us about qiyamun laid.
+Dialogue: 0,0:00:05.90,0:00:07.39,Caption,,0,0,0,,{\pos(540,1238)}In a lot of ahadith,
+Dialogue: 0,0:00:07.39,0:00:08.89,Caption,,0,0,0,,{\pos(540,1238)}how about the one who does\Nnot
+Dialogue: 0,0:00:08.89,0:00:10.38,Caption,,0,0,0,,{\pos(540,1238)}sleep?
+Dialogue: 0,0:00:11.04,0:00:12.58,Caption,,0,0,0,,{\pos(540,1238)}He prays throughout the\Nnight.
+Dialogue: 0,0:00:12.80,0:00:14.76,Caption,,0,0,0,,{\pos(540,1238)}This is ghalou fideen.
+Dialogue: 0,0:00:14.76,0:00:17.00,Caption,,0,0,0,,{\pos(540,1238)}It's ghalou fideen, not to\Nsleep at
+Dialogue: 0,0:00:17.00,0:00:19.24,Caption,,0,0,0,,{\pos(540,1238)}all, it's ghalou.
+Dialogue: 0,0:00:20.64,0:00:21.89,Caption,,0,0,0,,{\pos(540,1238)}The same way we are\Nencouraged to
+Dialogue: 0,0:00:21.89,0:00:23.13,Caption,,0,0,0,,{\pos(540,1238)}fast during the daytime,
+Dialogue: 0,0:00:23.13,0:00:24.38,Caption,,0,0,0,,{\pos(540,1238)}are we?
+Dialogue: 0,0:00:25.76,0:00:27.23,Caption,,0,0,0,,{\pos(540,1238)}How about the one who every\Nday
+Dialogue: 0,0:00:27.23,0:00:28.70,Caption,,0,0,0,,{\pos(540,1238)}is fasting?
+Dialogue: 0,0:00:29.88,0:00:31.20,Caption,,0,0,0,,{\pos(540,1238)}Every day is fasting.
+Dialogue: 0,0:00:32.30,0:00:33.18,Caption,,0,0,0,,{\pos(540,1238)}So look at him.
+Dialogue: 0,0:00:33.64,0:00:35.74,Caption,,0,0,0,,{\pos(540,1238)}Every day he is fasting\Nduring daytime.
+Dialogue: 0,0:00:36.96,0:00:39.52,Caption,,0,0,0,,{\pos(540,1238)}Every day he is on qiyamun\Nlaid.
+Dialogue: 0,0:00:39.56,0:00:40.32,Caption,,0,0,0,,{\pos(540,1238)}He is not sleeping.
+Dialogue: 0,0:00:40.58,0:00:41.76,Caption,,0,0,0,,{\pos(540,1238)}The prophet condemned it,
+Dialogue: 0,0:00:41.76,0:00:42.94,Caption,,0,0,0,,{\pos(540,1238)}sallallahu alayhi wa ala\Nsalam.
+Dialogue: 0,0:00:43.66,0:00:45.84,Caption,,0,0,0,,{\pos(540,1238)}Another aspect of ghalou\Nfideen.
+Dialogue: 0,0:00:46.38,0:00:47.63,Caption,,0,0,0,,{\pos(540,1238)}A man has a wife and he
+Dialogue: 0,0:00:47.63,0:00:48.88,Caption,,0,0,0,,{\pos(540,1238)}never comes near her.
+Dialogue: 0,0:00:49.88,0:00:51.60,Caption,,0,0,0,,{\pos(540,1238)}Or a woman who never allows\Nher
+Dialogue: 0,0:00:51.60,0:00:53.32,Caption,,0,0,0,,{\pos(540,1238)}husband to come near her.
+Dialogue: 0,0:00:53.32,0:00:53.70,Caption,,0,0,0,,{\pos(540,1238)}Why?
+Dialogue: 0,0:00:53.90,0:00:55.50,Caption,,0,0,0,,{\pos(540,1238)}She is busy with ibadah.
+Dialogue: 0,0:00:56.02,0:00:58.12,Caption,,0,0,0,,{\pos(540,1238)}I'm busy with ibadah.
+Dialogue: 0,0:00:58.12,0:01:00.36,Caption,,0,0,0,,{\pos(540,1238)}I'm busy with ibadah.
+Dialogue: 0,0:01:00.76,0:01:02.86,Caption,,0,0,0,,{\pos(540,1238)}And all of these,
+Dialogue: 0,0:01:02.86,0:01:04.96,Caption,,0,0,0,,{\pos(540,1238)}these are aspects of ghalou\Nfideen.
+Dialogue: 0,0:01:05.30,0:01:06.59,Caption,,0,0,0,,{\pos(540,1238)}You see that ghalou,
+Dialogue: 0,0:01:06.59,0:01:07.87,Caption,,0,0,0,,{\pos(540,1238)}the basics of that thing will\Nbe
+Dialogue: 0,0:01:07.87,0:01:09.16,Caption,,0,0,0,,{\pos(540,1238)}there.
+Dialogue: 0,0:01:09.16,0:01:10.88,Caption,,0,0,0,,{\pos(540,1238)}But you'll be doing it in a
+Dialogue: 0,0:01:10.88,0:01:12.60,Caption,,0,0,0,,{\pos(540,1238)}manner that goes beyond\Nlimits.
+Dialogue: 0,0:01:13.42,0:01:14.12,Caption,,0,0,0,,{\pos(540,1238)}Like fasting.
+Dialogue: 0,0:01:14.46,0:01:15.50,Caption,,0,0,0,,{\pos(540,1238)}Yes, we should fast.
+Dialogue: 0,0:01:16.00,0:01:16.92,Caption,,0,0,0,,{\pos(540,1238)}Beyond limit.
+Dialogue: 0,0:01:17.42,0:01:19.63,Caption,,0,0,0,,{\pos(540,1238)}No fasting should go beyond\Nfast a
+Dialogue: 0,0:01:19.63,0:01:21.84,Caption,,0,0,0,,{\pos(540,1238)}day, live a day.
+Dialogue: 0,0:01:22.26,0:01:23.68,Caption,,0,0,0,,{\pos(540,1238)}That's so mudawud.
+Dialogue: 0,0:01:24.82,0:01:25.81,Caption,,0,0,0,,{\pos(540,1238)}Except you fast three days in\Na
+Dialogue: 0,0:01:25.81,0:01:26.80,Caption,,0,0,0,,{\pos(540,1238)}month.
+Dialogue: 0,0:01:27.76,0:01:28.87,Caption,,0,0,0,,{\pos(540,1238)}Maybe one at the beginning,
+Dialogue: 0,0:01:28.87,0:01:29.99,Caption,,0,0,0,,{\pos(540,1238)}one at the middle,
+Dialogue: 0,0:01:29.99,0:01:31.10,Caption,,0,0,0,,{\pos(540,1238)}one at the end.
+Dialogue: 0,0:01:31.90,0:01:33.96,Caption,,0,0,0,,{\pos(540,1238)}Or you fast three straight\Ndays.
+

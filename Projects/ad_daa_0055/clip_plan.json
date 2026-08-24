@@ -1,0 +1,57 @@
+{
+  "series": "Dropsofknowledge",
+  "episode": "0055",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "version": "5.3.1",
+  "source": "ad_daa055.amr",
+  "clips": [
+    {
+      "id": "0055-01",
+      "start": "00:09:59.880",
+      "end": "00:11:24.580",
+      "confidence": 0.97,
+      "flag": null,
+      "headline": "True Hope in Allah Requires Action"
+    },
+    {
+      "id": "0055-02",
+      "start": "00:15:35.240",
+      "end": "00:16:33.780",
+      "confidence": 0.96,
+      "flag": null,
+      "headline": "Hope for Good from Allah by Doing Good"
+    },
+    {
+      "id": "0055-03",
+      "start": "00:19:12.900",
+      "end": "00:20:33.940",
+      "confidence": 0.94,
+      "flag": null,
+      "headline": "Turning Away from Sin Can Change a Person’s Life"
+    },
+    {
+      "id": "0055-04",
+      "start": "01:00:01.690",
+      "end": "01:01:38.590",
+      "confidence": 0.97,
+      "flag": null,
+      "headline": "Worldly Luxury Is Not Proof That Allah Loves You"
+    },
+    {
+      "id": "0055-05",
+      "start": "01:06:29.610",
+      "end": "01:08:10.490",
+      "confidence": 0.98,
+      "flag": null,
+      "headline": "Practical Ways to Help a Parent Return to Salah"
+    },
+    {
+      "id": "0055-06",
+      "start": "01:15:18.520",
+      "end": "01:17:00.250",
+      "confidence": 0.93,
+      "flag": "Fiqh-specific guidance; retain full context when publishing.",
+      "headline": "Marriage Conditions Are Stronger Than Mere Promises"
+    }
+  ]
+}

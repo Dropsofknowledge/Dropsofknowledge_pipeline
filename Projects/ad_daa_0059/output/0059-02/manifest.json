@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0059-02",
+    "series":  "DropsofKnowledge",
+    "episode":  "0059",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Do Not Trade the Hereafter for Immediate Wealth",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "ad_daa.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\ad_daa_0059\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:12:10.420",
+                   "end":  "00:13:23.360",
+                   "duration_sec":  72.94
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0059-02/clip.mp4",
+    "caption_cues":  34
+}

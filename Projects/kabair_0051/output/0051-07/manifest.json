@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0051-07",
+    "series":  "DropsofKnowledge",
+    "episode":  "0051",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "When Religious Devotion Goes Beyond the Limits",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "kabair.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\kabair_0051\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:54:38.340",
+                   "end":  "00:56:12.300",
+                   "duration_sec":  93.96
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0051-07/clip.mp4",
+    "caption_cues":  49
+}

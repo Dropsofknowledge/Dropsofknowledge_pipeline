@@ -6,3 +6,6 @@ clip_plans/
 .env
 __pycache__/
 *.pyc
+Downloads/
+*.session
+state/youtube_token.json

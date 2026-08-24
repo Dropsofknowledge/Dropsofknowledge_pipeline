@@ -1,0 +1,44 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.65,Caption,,0,0,0,,{\pos(540,1163)}So sometimes the first thing\Nto straighten
+Dialogue: 0,0:00:02.65,0:00:05.29,Caption,,0,0,0,,{\pos(540,1163)}up in them is that they\Nshould
+Dialogue: 0,0:00:05.29,0:00:07.94,Caption,,0,0,0,,{\pos(540,1163)}be hopeful that Allah will\Nremove them
+Dialogue: 0,0:00:07.94,0:00:10.58,Caption,,0,0,0,,{\pos(540,1163)}from this evil.
+Dialogue: 0,0:00:10.58,0:00:14.06,Caption,,0,0,0,,{\pos(540,1163)}This hope, that Allah will\Nremove me
+Dialogue: 0,0:00:14.06,0:00:17.53,Caption,,0,0,0,,{\pos(540,1163)}and begin to make efforts to\Nget
+Dialogue: 0,0:00:17.53,0:00:21.01,Caption,,0,0,0,,{\pos(540,1163)}out of this trouble in the\Nways
+Dialogue: 0,0:00:21.01,0:00:24.48,Caption,,0,0,0,,{\pos(540,1163)}that the ulema will suggest.
+Dialogue: 0,0:00:24.98,0:00:28.31,Caption,,0,0,0,,{\pos(540,1163)}And we have been reading in\Nthis
+Dialogue: 0,0:00:28.31,0:00:31.63,Caption,,0,0,0,,{\pos(540,1163)}book that is from the aspects\Nof
+Dialogue: 0,0:00:31.63,0:00:34.96,Caption,,0,0,0,,{\pos(540,1163)}Husnu Zonni Billah, Allah\Nwill help me.
+Dialogue: 0,0:00:34.96,0:00:37.16,Caption,,0,0,0,,{\pos(540,1163)}Allah will provide support\Nfor me out
+Dialogue: 0,0:00:37.16,0:00:39.36,Caption,,0,0,0,,{\pos(540,1163)}of his mercy.
+Dialogue: 0,0:00:39.36,0:00:41.60,Caption,,0,0,0,,{\pos(540,1163)}So I will begin the process\Nof
+Dialogue: 0,0:00:41.60,0:00:43.84,Caption,,0,0,0,,{\pos(540,1163)}tawbah, all what he had done\Nin
+Dialogue: 0,0:00:43.84,0:00:46.08,Caption,,0,0,0,,{\pos(540,1163)}the past.
+Dialogue: 0,0:00:46.70,0:00:49.10,Caption,,0,0,0,,{\pos(540,1163)}If the tawbah is genuine,
+Dialogue: 0,0:00:49.10,0:00:51.50,Caption,,0,0,0,,{\pos(540,1163)}if the tawbah is sincere,
+Dialogue: 0,0:00:51.50,0:00:53.90,Caption,,0,0,0,,{\pos(540,1163)}Allah will provide me help.
+Dialogue: 0,0:00:54.42,0:00:56.05,Caption,,0,0,0,,{\pos(540,1163)}He will pardon me if I repent
+Dialogue: 0,0:00:56.05,0:00:57.68,Caption,,0,0,0,,{\pos(540,1163)}genuinely.
+Dialogue: 0,0:00:58.78,0:01:01.18,Caption,,0,0,0,,{\pos(540,1163)}Unfortunately, some of the\Npeople continue to
+Dialogue: 0,0:01:01.18,0:01:03.59,Caption,,0,0,0,,{\pos(540,1163)}remain up on sin,
+Dialogue: 0,0:01:03.59,0:01:05.99,Caption,,0,0,0,,{\pos(540,1163)}thinking that they are hoping\Npositively in
+Dialogue: 0,0:01:05.99,0:01:08.40,Caption,,0,0,0,,{\pos(540,1163)}Allah.
+Dialogue: 0,0:01:08.40,0:01:11.66,Caption,,0,0,0,,{\pos(540,1163)}If the hope with Allah is\Npositive,
+Dialogue: 0,0:01:11.66,0:01:14.92,Caption,,0,0,0,,{\pos(540,1163)}then we must begin to take\Nsteps
+Dialogue: 0,0:01:14.92,0:01:18.18,Caption,,0,0,0,,{\pos(540,1163)}out of sin, if your hope,
+Dialogue: 0,0:01:18.18,0:01:21.44,Caption,,0,0,0,,{\pos(540,1163)}if your anticipation of\Ngoodness with Allah
+Dialogue: 0,0:01:21.44,0:01:24.70,Caption,,0,0,0,,{\pos(540,1163)}is genuine.
+

@@ -1,0 +1,70 @@
+﻿[2026-08-17 16:30:49] [STEP ] DropsofKnowledge Renderer starting
+[2026-08-17 16:30:49] [INFO ] Project: C:\Users\Mahmud\Documents\ChatGPT\drops\repo\Projects\ad_daa_0055
+[2026-08-17 16:32:35] [INFO ] Planned clips: 6
+[2026-08-17 16:32:35] [ERROR] Clip 0055-01 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [ERROR] Clip 0055-02 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [ERROR] Clip 0055-03 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [ERROR] Clip 0055-04 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [ERROR] Clip 0055-05 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [ERROR] Clip 0055-06 FAILED: The property 'headline' cannot be found on this object. Verify that the property exists.
+The property 'headline' cannot be found on this object. Verify that the property exists.
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+at <ScriptBlock>, C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1: line 137
+At C:\Users\Mahmud\Documents\ChatGPT\drops\repo\scripts\render_project.ps1:137 char:54
++ ...   Write-DokLog $logger "Rendering clip $id - $($clip.headline)" 'STEP ...
++                                                    ~~~~~~~~~~~~~~
+[2026-08-17 16:32:35] [STEP ] Summary: total=6 completed=0 failed=6 skipped=0

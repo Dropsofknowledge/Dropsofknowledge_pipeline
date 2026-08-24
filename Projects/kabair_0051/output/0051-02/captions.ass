@@ -1,0 +1,56 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.67,Caption,,0,0,0,,{\pos(540,1238)}anyone who is given the job,
+Dialogue: 0,0:00:02.67,0:00:05.33,Caption,,0,0,0,,{\pos(540,1238)}the duty, in any form in this
+Dialogue: 0,0:00:05.33,0:00:08.00,Caption,,0,0,0,,{\pos(540,1238)}ummah
+Dialogue: 0,0:00:08.00,0:00:10.00,Caption,,0,0,0,,{\pos(540,1238)}no matter the job,
+Dialogue: 0,0:00:10.00,0:00:12.00,Caption,,0,0,0,,{\pos(540,1238)}you are given the job of an
+Dialogue: 0,0:00:12.00,0:00:14.00,Caption,,0,0,0,,{\pos(540,1238)}imam in your masjid
+Dialogue: 0,0:00:14.76,0:00:16.75,Caption,,0,0,0,,{\pos(540,1238)}you are given the job of a
+Dialogue: 0,0:00:16.75,0:00:18.74,Caption,,0,0,0,,{\pos(540,1238)}principal in your school
+Dialogue: 0,0:00:18.74,0:00:20.61,Caption,,0,0,0,,{\pos(540,1238)}you are given the job of a
+Dialogue: 0,0:00:20.61,0:00:22.48,Caption,,0,0,0,,{\pos(540,1238)}headmaster in your school
+Dialogue: 0,0:00:23.14,0:00:24.63,Caption,,0,0,0,,{\pos(540,1238)}you are given the job of a
+Dialogue: 0,0:00:24.63,0:00:26.12,Caption,,0,0,0,,{\pos(540,1238)}head of department
+Dialogue: 0,0:00:26.76,0:00:28.08,Caption,,0,0,0,,{\pos(540,1238)}you are the head of the law
+Dialogue: 0,0:00:28.08,0:00:29.40,Caption,,0,0,0,,{\pos(540,1238)}chamber
+Dialogue: 0,0:00:30.14,0:00:31.74,Caption,,0,0,0,,{\pos(540,1238)}you are the head,
+Dialogue: 0,0:00:31.74,0:00:33.34,Caption,,0,0,0,,{\pos(540,1238)}the clinical head
+Dialogue: 0,0:00:34.00,0:00:35.19,Caption,,0,0,0,,{\pos(540,1238)}or the head of department in\Nthe
+Dialogue: 0,0:00:35.19,0:00:36.38,Caption,,0,0,0,,{\pos(540,1238)}hospital
+Dialogue: 0,0:00:36.38,0:00:39.08,Caption,,0,0,0,,{\pos(540,1238)}or the dean of the faculty
+Dialogue: 0,0:00:40.26,0:00:41.94,Caption,,0,0,0,,{\pos(540,1238)}anybody who is placed in\Ncharge of
+Dialogue: 0,0:00:41.94,0:00:43.62,Caption,,0,0,0,,{\pos(540,1238)}anything
+Dialogue: 0,0:00:51.12,0:00:54.31,Caption,,0,0,0,,{\pos(540,1238)}he has been given any\Nparticular job
+Dialogue: 0,0:00:54.31,0:00:57.50,Caption,,0,0,0,,{\pos(540,1238)}in the affairs of this ummah
+Dialogue: 0,0:00:59.96,0:01:01.79,Caption,,0,0,0,,{\pos(540,1238)}and then he takes it easy\Nwith
+Dialogue: 0,0:01:01.79,0:01:03.62,Caption,,0,0,0,,{\pos(540,1238)}the people
+Dialogue: 0,0:01:03.62,0:01:06.90,Caption,,0,0,0,,{\pos(540,1238)}he makes life easy for them
+Dialogue: 0,0:01:06.90,0:01:08.42,Caption,,0,0,0,,{\pos(540,1238)}he supports them
+Dialogue: 0,0:01:08.42,0:01:10.50,Caption,,0,0,0,,{\pos(540,1238)}he helps them
+Dialogue: 0,0:01:10.50,0:01:12.48,Caption,,0,0,0,,{\pos(540,1238)}he overlooks their faults
+Dialogue: 0,0:01:12.48,0:01:14.62,Caption,,0,0,0,,{\pos(540,1238)}he makes things easy for them
+Dialogue: 0,0:01:19.84,0:01:21.74,Caption,,0,0,0,,{\pos(540,1238)}this kind of a person,
+Dialogue: 0,0:01:21.74,0:01:23.64,Caption,,0,0,0,,{\pos(540,1238)}be easy with him
+Dialogue: 0,0:01:23.64,0:01:25.08,Caption,,0,0,0,,{\pos(540,1238)}look at this dua
+Dialogue: 0,0:01:34.92,0:01:37.27,Caption,,0,0,0,,{\pos(540,1238)}anyone placed in charge of\Nanything in
+Dialogue: 0,0:01:37.27,0:01:39.62,Caption,,0,0,0,,{\pos(540,1238)}this ummah
+Dialogue: 0,0:01:41.70,0:01:44.64,Caption,,0,0,0,,{\pos(540,1238)}and then he is easy
+Dialogue: 0,0:01:44.64,0:01:47.02,Caption,,0,0,0,,{\pos(540,1238)}he is nice to them
+Dialogue: 0,0:01:47.02,0:01:48.78,Caption,,0,0,0,,{\pos(540,1238)}he rules them well
+Dialogue: 0,0:01:48.78,0:01:50.66,Caption,,0,0,0,,{\pos(540,1238)}he is fair to them
+Dialogue: 0,0:01:52.23,0:01:54.54,Caption,,0,0,0,,{\pos(540,1238)}be easy with him
+Dialogue: 0,0:01:54.54,0:01:57.10,Caption,,0,0,0,,{\pos(540,1238)}be kind towards him
+Dialogue: 0,0:01:57.10,0:01:59.28,Caption,,0,0,0,,{\pos(540,1238)}O Allah show your favors on\Nhim
+

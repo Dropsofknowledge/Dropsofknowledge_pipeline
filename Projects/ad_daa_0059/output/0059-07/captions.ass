@@ -1,0 +1,56 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.56,Caption,,0,0,0,,{\pos(540,1163)}Don't worry
+Dialogue: 0,0:00:01.56,0:00:04.44,Caption,,0,0,0,,{\pos(540,1163)}What you have left of riba
+Dialogue: 0,0:00:04.44,0:00:06.80,Caption,,0,0,0,,{\pos(540,1163)}What you have left of sin
+Dialogue: 0,0:00:06.80,0:00:08.20,Caption,,0,0,0,,{\pos(540,1163)}Of kidnapping
+Dialogue: 0,0:00:08.20,0:00:09.84,Caption,,0,0,0,,{\pos(540,1163)}Of banditry
+Dialogue: 0,0:00:09.84,0:00:11.26,Caption,,0,0,0,,{\pos(540,1163)}Of yahoo yahoo
+Dialogue: 0,0:00:11.26,0:00:14.12,Caption,,0,0,0,,{\pos(540,1163)}Of stealing government money\Nto make money
+Dialogue: 0,0:00:14.12,0:00:15.99,Caption,,0,0,0,,{\pos(540,1163)}Of stealing and killing to\Nend political
+Dialogue: 0,0:00:15.99,0:00:17.86,Caption,,0,0,0,,{\pos(540,1163)}offices
+Dialogue: 0,0:00:17.86,0:00:19.88,Caption,,0,0,0,,{\pos(540,1163)}All of these things they are
+Dialogue: 0,0:00:19.88,0:00:24.68,Caption,,0,0,0,,{\pos(540,1163)}They are small things
+Dialogue: 0,0:00:24.68,0:00:27.96,Caption,,0,0,0,,{\pos(540,1163)}They have small time
+Dialogue: 0,0:00:27.96,0:00:31.54,Caption,,0,0,0,,{\pos(540,1163)}Small things of small times
+Dialogue: 0,0:00:34.40,0:00:40.12,Caption,,0,0,0,,{\pos(540,1163)}They are despicable
+Dialogue: 0,0:00:42.44,0:00:46.22,Caption,,0,0,0,,{\pos(540,1163)}Easily they will become\Ndisconnected from you
+Dialogue: 0,0:00:46.22,0:00:49.02,Caption,,0,0,0,,{\pos(540,1163)}They don't last
+Dialogue: 0,0:00:49.02,0:00:51.56,Caption,,0,0,0,,{\pos(540,1163)}And curbing over a short time
+Dialogue: 0,0:00:51.56,0:00:52.92,Caption,,0,0,0,,{\pos(540,1163)}They will go away
+Dialogue: 0,0:00:52.92,0:00:55.26,Caption,,0,0,0,,{\pos(540,1163)}You left them
+Dialogue: 0,0:00:55.26,0:00:56.54,Caption,,0,0,0,,{\pos(540,1163)}The arm ring
+Dialogue: 0,0:00:56.99,0:00:58.48,Caption,,0,0,0,,{\pos(540,1163)}For something
+Dialogue: 0,0:01:03.08,0:01:05.98,Caption,,0,0,0,,{\pos(540,1163)}Something that is war
+Dialogue: 0,0:01:06.96,0:01:10.98,Caption,,0,0,0,,{\pos(540,1163)}There is no doubt inside it
+Dialogue: 0,0:01:12.92,0:01:14.80,Caption,,0,0,0,,{\pos(540,1163)}And it does not stop
+Dialogue: 0,0:01:14.80,0:01:17.46,Caption,,0,0,0,,{\pos(540,1163)}It does not have an end
+Dialogue: 0,0:01:17.46,0:01:19.03,Caption,,0,0,0,,{\pos(540,1163)}So if you leave riba my dear
+Dialogue: 0,0:01:19.03,0:01:20.60,Caption,,0,0,0,,{\pos(540,1163)}brother
+Dialogue: 0,0:01:20.60,0:01:22.44,Caption,,0,0,0,,{\pos(540,1163)}If you leave a transaction\Nthat is
+Dialogue: 0,0:01:22.44,0:01:24.28,Caption,,0,0,0,,{\pos(540,1163)}haram
+Dialogue: 0,0:01:24.56,0:01:25.66,Caption,,0,0,0,,{\pos(540,1163)}My dear brother
+Dialogue: 0,0:01:26.62,0:01:28.72,Caption,,0,0,0,,{\pos(540,1163)}If you avoid and stay away\Nfrom
+Dialogue: 0,0:01:28.72,0:01:30.82,Caption,,0,0,0,,{\pos(540,1163)}banditry
+Dialogue: 0,0:01:30.82,0:01:31.86,Caption,,0,0,0,,{\pos(540,1163)}From kidnapping
+Dialogue: 0,0:01:31.86,0:01:33.92,Caption,,0,0,0,,{\pos(540,1163)}From stealing government\Nmoney
+Dialogue: 0,0:01:33.92,0:01:35.56,Caption,,0,0,0,,{\pos(540,1163)}If you keep away from all of
+Dialogue: 0,0:01:35.56,0:01:37.20,Caption,,0,0,0,,{\pos(540,1163)}these things
+Dialogue: 0,0:01:37.92,0:01:40.06,Caption,,0,0,0,,{\pos(540,1163)}You have iman and yaqeen
+Dialogue: 0,0:01:40.54,0:01:42.30,Caption,,0,0,0,,{\pos(540,1163)}About the day of qiyam
+Dialogue: 0,0:01:42.30,0:01:45.04,Caption,,0,0,0,,{\pos(540,1163)}About the promises of Allah
+Dialogue: 0,0:01:45.04,0:01:47.04,Caption,,0,0,0,,{\pos(540,1163)}About the contents of the\NQuran
+Dialogue: 0,0:01:47.48,0:01:50.30,Caption,,0,0,0,,{\pos(540,1163)}About the contents of the\Nsunnah
+Dialogue: 0,0:01:50.30,0:01:51.51,Caption,,0,0,0,,{\pos(540,1163)}About the promises
+

@@ -1,0 +1,65 @@
+{
+  "series": "DropsofKnowledge",
+  "episode": "0059",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "version": "5.3.1",
+  "source": "ad_daa059.amr",
+  "clips": [
+    {
+      "id": "0059-01",
+      "start": "00:08:34.140",
+      "end": "00:10:04.140",
+      "headline": "When Comfort Becomes a Gradual Punishment",
+      "confidence": 0.88,
+      "flag": null
+    },
+    {
+      "id": "0059-02",
+      "start": "00:12:10.420",
+      "end": "00:13:23.360",
+      "headline": "Do Not Trade the Hereafter for Immediate Wealth",
+      "confidence": 0.92,
+      "flag": null
+    },
+    {
+      "id": "0059-03",
+      "start": "00:14:56.360",
+      "end": "00:16:53.620",
+      "headline": "Immediate Gain Is Not Always the Better Choice",
+      "confidence": 0.94,
+      "flag": null
+    },
+    {
+      "id": "0059-04",
+      "start": "00:20:03.680",
+      "end": "00:21:15.360",
+      "headline": "How Small Is This World Compared to the Hereafter?",
+      "confidence": 0.95,
+      "flag": null
+    },
+    {
+      "id": "0059-05",
+      "start": "00:25:27.820",
+      "end": "00:26:58.760",
+      "headline": "Would You Trade Everlasting Joy for a Few Years of Luxury?",
+      "confidence": 0.96,
+      "flag": null
+    },
+    {
+      "id": "0059-06",
+      "start": "00:27:44.210",
+      "end": "00:29:43.530",
+      "headline": "What Is Worth Giving Up for Halal?",
+      "confidence": 0.94,
+      "flag": null
+    },
+    {
+      "id": "0059-07",
+      "start": "00:39:38.490",
+      "end": "00:41:30.000",
+      "headline": "Leaving Haram Wealth Is Not a Loss",
+      "confidence": 0.95,
+      "flag": null
+    }
+  ]
+}

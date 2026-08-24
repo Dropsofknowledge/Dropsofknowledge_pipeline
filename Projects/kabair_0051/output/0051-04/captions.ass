@@ -1,0 +1,45 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.73,Caption,,0,0,0,,{\pos(540,1238)}smaller group and they look\Nat them,
+Dialogue: 0,0:00:02.73,0:00:05.47,Caption,,0,0,0,,{\pos(540,1238)}they do not attempt to change\Nthe
+Dialogue: 0,0:00:05.47,0:00:08.20,Caption,,0,0,0,,{\pos(540,1238)}situation.
+Dialogue: 0,0:00:09.82,0:00:11.11,Caption,,0,0,0,,{\pos(540,1238)}So in the northern states and\Nin
+Dialogue: 0,0:00:11.11,0:00:12.41,Caption,,0,0,0,,{\pos(540,1238)}many of the parts of the\Ncountry,
+Dialogue: 0,0:00:12.41,0:00:13.70,Caption,,0,0,0,,{\pos(540,1238)}they are bandits.
+Dialogue: 0,0:00:14.60,0:00:17.11,Caption,,0,0,0,,{\pos(540,1238)}If the larger majority close\Ntheir eyes,
+Dialogue: 0,0:00:17.11,0:00:19.61,Caption,,0,0,0,,{\pos(540,1238)}they don't do anything,
+Dialogue: 0,0:00:19.61,0:00:22.12,Caption,,0,0,0,,{\pos(540,1238)}they just cross their fingers
+Dialogue: 0,0:00:22.12,0:00:23.42,Caption,,0,0,0,,{\pos(540,1238)}and fold their arms.
+Dialogue: 0,0:00:25.50,0:00:27.24,Caption,,0,0,0,,{\pos(540,1238)}They do not do anything to\Nit.
+Dialogue: 0,0:00:27.24,0:00:31.57,Caption,,0,0,0,,{\pos(540,1238)}The Prophet said, Allah will\Nsend a
+Dialogue: 0,0:00:31.57,0:00:35.90,Caption,,0,0,0,,{\pos(540,1238)}punishment that will go\Naround everybody.
+Dialogue: 0,0:00:37.54,0:00:39.33,Caption,,0,0,0,,{\pos(540,1238)}If a people, you are in a
+Dialogue: 0,0:00:39.33,0:00:41.11,Caption,,0,0,0,,{\pos(540,1238)}community, some people are\Ncommitting evil and
+Dialogue: 0,0:00:41.11,0:00:42.90,Caption,,0,0,0,,{\pos(540,1238)}you keep quiet,
+Dialogue: 0,0:00:46.22,0:00:48.26,Caption,,0,0,0,,{\pos(540,1238)}Allah will send down the\Npunishment and
+Dialogue: 0,0:00:48.26,0:00:50.30,Caption,,0,0,0,,{\pos(540,1238)}it will go around everybody.
+Dialogue: 0,0:00:50.84,0:00:53.61,Caption,,0,0,0,,{\pos(540,1238)}Both those who are directly\Ninvolved and
+Dialogue: 0,0:00:53.61,0:00:56.38,Caption,,0,0,0,,{\pos(540,1238)}those who have refused to do\Nanything.
+Dialogue: 0,0:00:57.42,0:00:59.69,Caption,,0,0,0,,{\pos(540,1238)}In our religion, Islam,
+Dialogue: 0,0:00:59.69,0:01:01.97,Caption,,0,0,0,,{\pos(540,1238)}it is prohibited that we see\Nevil
+Dialogue: 0,0:01:01.97,0:01:04.24,Caption,,0,0,0,,{\pos(540,1238)}and we refuse to do anything.
+Dialogue: 0,0:01:07.24,0:01:08.80,Caption,,0,0,0,,{\pos(540,1238)}You refuse to do anything.
+Dialogue: 0,0:01:09.90,0:01:11.07,Caption,,0,0,0,,{\pos(540,1238)}You look away and see if it
+Dialogue: 0,0:01:11.07,0:01:12.24,Caption,,0,0,0,,{\pos(540,1238)}does not concern you.
+Dialogue: 0,0:01:12.80,0:01:15.89,Caption,,0,0,0,,{\pos(540,1238)}Look at the various young\Npeople in
+Dialogue: 0,0:01:15.89,0:01:18.99,Caption,,0,0,0,,{\pos(540,1238)}the society today, upon Yahu,
+Dialogue: 0,0:01:18.99,0:01:22.08,Caption,,0,0,0,,{\pos(540,1238)}upon alcohol, upon various
+Dialogue: 0,0:01:22.08,0:01:25.09,Caption,,0,0,0,,{\pos(540,1238)}kinds of deviations and then\Nyou sit
+Dialogue: 0,0:01:25.09,0:01:28.10,Caption,,0,0,0,,{\pos(540,1238)}down, you refuse to do\Nanything.
+

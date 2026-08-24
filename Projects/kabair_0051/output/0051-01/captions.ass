@@ -1,0 +1,46 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.49,Caption,,0,0,0,,{\pos(540,1238)}al-imam al-zahabi,\Nrahimahullah, looked at a
+Dialogue: 0,0:00:03.49,0:00:06.98,Caption,,0,0,0,,{\pos(540,1238)}of the Quran where Allah said
+Dialogue: 0,0:00:06.98,0:00:11.79,Caption,,0,0,0,,{\pos(540,1238)}subhanahu wa ta'ala, in\Ntajtanibu kaba'iru ma
+Dialogue: 0,0:00:11.79,0:00:16.60,Caption,,0,0,0,,{\pos(540,1238)}tunhawna anhu, nu kafir ankum\Nsay'atikum
+Dialogue: 0,0:00:16.60,0:00:20.13,Caption,,0,0,0,,{\pos(540,1238)}wa nu dkhilkum mudkhalan\Nkareema,
+Dialogue: 0,0:00:20.13,0:00:23.65,Caption,,0,0,0,,{\pos(540,1238)}in tajtanibu kaba'iru ma\Ntunhawna anhu,
+Dialogue: 0,0:00:23.65,0:00:27.18,Caption,,0,0,0,,{\pos(540,1238)}oh mankind if you abstain
+Dialogue: 0,0:00:27.18,0:00:30.64,Caption,,0,0,0,,{\pos(540,1238)}oh people of iman if you\Nabstain
+Dialogue: 0,0:00:30.64,0:00:34.09,Caption,,0,0,0,,{\pos(540,1238)}in tajtanibu kaba'iru ma\Ntunhawna anhu,
+Dialogue: 0,0:00:34.09,0:00:37.55,Caption,,0,0,0,,{\pos(540,1238)}if you abstain from those\Nthat are
+Dialogue: 0,0:00:37.55,0:00:41.00,Caption,,0,0,0,,{\pos(540,1238)}kaba'ir
+Dialogue: 0,0:00:41.00,0:00:44.06,Caption,,0,0,0,,{\pos(540,1238)}from the things that we have\Nprohibited
+Dialogue: 0,0:00:44.06,0:00:47.12,Caption,,0,0,0,,{\pos(540,1238)}you, from the things that we\Nhave
+Dialogue: 0,0:00:47.12,0:00:50.18,Caption,,0,0,0,,{\pos(540,1238)}prohibited you, some of them\Nare kaba'ir
+Dialogue: 0,0:00:50.18,0:00:52.84,Caption,,0,0,0,,{\pos(540,1238)}in tajtanibu kaba'iru ma\Ntunhawna anhu,
+Dialogue: 0,0:00:52.84,0:00:55.50,Caption,,0,0,0,,{\pos(540,1238)}if you abstain from those\Nthat are
+Dialogue: 0,0:00:55.50,0:00:58.16,Caption,,0,0,0,,{\pos(540,1238)}kaba'ir
+Dialogue: 0,0:00:58.16,0:01:01.74,Caption,,0,0,0,,{\pos(540,1238)}amongst the things that you\Nhave been
+Dialogue: 0,0:01:01.74,0:01:05.32,Caption,,0,0,0,,{\pos(540,1238)}prohibited from, Allah said\Nthe reward is
+Dialogue: 0,0:01:05.32,0:01:08.90,Caption,,0,0,0,,{\pos(540,1238)}that nu kafir anhum\Nsay'atikum
+Dialogue: 0,0:01:08.90,0:01:12.93,Caption,,0,0,0,,{\pos(540,1238)}your smaller, your relatively\Nlesser sins,
+Dialogue: 0,0:01:12.93,0:01:16.95,Caption,,0,0,0,,{\pos(540,1238)}nu kafir, Allah said nu kafir\Nanhum,
+Dialogue: 0,0:01:16.95,0:01:20.98,Caption,,0,0,0,,{\pos(540,1238)}we will atone for you
+Dialogue: 0,0:01:20.98,0:01:24.38,Caption,,0,0,0,,{\pos(540,1238)}your smaller sins, those sins\Nthat are
+Dialogue: 0,0:01:24.38,0:01:27.78,Caption,,0,0,0,,{\pos(540,1238)}of lesser gravity than al\Nkaba'ir,
+Dialogue: 0,0:01:27.78,0:01:31.18,Caption,,0,0,0,,{\pos(540,1238)}they are also called\Nalsogha'ir
+Dialogue: 0,0:01:31.18,0:01:33.49,Caption,,0,0,0,,{\pos(540,1238)}they are also called allamam,
+Dialogue: 0,0:01:33.49,0:01:35.79,Caption,,0,0,0,,{\pos(540,1238)}nu kafir anhum say'atikum,
+Dialogue: 0,0:01:35.79,0:01:38.10,Caption,,0,0,0,,{\pos(540,1238)}they are also called say'at
+Dialogue: 0,0:01:38.10,0:01:42.12,Caption,,0,0,0,,{\pos(540,1238)}we will make you also gain a
+Dialogue: 0,0:01:42.12,0:01:46.14,Caption,,0,0,0,,{\pos(540,1238)}honorable entrance into that\Nhome of esteem
+Dialogue: 0,0:01:46.14,0:01:50.16,Caption,,0,0,0,,{\pos(540,1238)}al jannah
+

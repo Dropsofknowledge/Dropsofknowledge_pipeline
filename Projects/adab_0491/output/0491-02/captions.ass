@@ -1,0 +1,54 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.03,Caption,,0,0,0,,{\pos(540,1296)}Like the Prophet Sallallahu\NAlaihi Wasallam encouraged
+Dialogue: 0,0:00:03.03,0:00:06.07,Caption,,0,0,0,,{\pos(540,1296)}us to make a lot of dua
+Dialogue: 0,0:00:06.07,0:00:09.10,Caption,,0,0,0,,{\pos(540,1296)}in our sujood.
+Dialogue: 0,0:00:09.16,0:00:10.22,Caption,,0,0,0,,{\pos(540,1296)}In fact he said,
+Dialogue: 0,0:00:13.70,0:00:16.97,Caption,,0,0,0,,{\pos(540,1296)}It is most very likely that\Nyou
+Dialogue: 0,0:00:16.97,0:00:20.24,Caption,,0,0,0,,{\pos(540,1296)}will be granted your request.
+Dialogue: 0,0:00:21.06,0:00:22.69,Caption,,0,0,0,,{\pos(540,1296)}You now want to make dua in
+Dialogue: 0,0:00:22.69,0:00:24.32,Caption,,0,0,0,,{\pos(540,1296)}your sujood. You make the\Ndua.
+Dialogue: 0,0:00:24.32,0:00:26.06,Caption,,0,0,0,,{\pos(540,1296)}If it is Sallallahu Alaihi\NNabi that
+Dialogue: 0,0:00:26.06,0:00:27.80,Caption,,0,0,0,,{\pos(540,1296)}you want to make,
+Dialogue: 0,0:00:27.80,0:00:29.54,Caption,,0,0,0,,{\pos(540,1296)}you make Sallallahu Alaihi\NNabi.
+Dialogue: 0,0:00:30.32,0:00:32.09,Caption,,0,0,0,,{\pos(540,1296)}You know that is upon your\Nchoice
+Dialogue: 0,0:00:32.09,0:00:33.85,Caption,,0,0,0,,{\pos(540,1296)}now that you are making dua\Nin
+Dialogue: 0,0:00:33.85,0:00:35.62,Caption,,0,0,0,,{\pos(540,1296)}your sujood.
+Dialogue: 0,0:00:36.48,0:00:38.23,Caption,,0,0,0,,{\pos(540,1296)}What may become an innovation\Nis that
+Dialogue: 0,0:00:38.23,0:00:39.97,Caption,,0,0,0,,{\pos(540,1296)}you are doing that in the\Nlast
+Dialogue: 0,0:00:39.97,0:00:41.72,Caption,,0,0,0,,{\pos(540,1296)}sujood.
+Dialogue: 0,0:00:42.50,0:00:44.58,Caption,,0,0,0,,{\pos(540,1296)}And every day it's the last\Nsujood.
+Dialogue: 0,0:00:45.66,0:00:47.27,Caption,,0,0,0,,{\pos(540,1296)}So that it becomes as if the
+Dialogue: 0,0:00:47.27,0:00:48.89,Caption,,0,0,0,,{\pos(540,1296)}last sujood is a sujood for\Nextra
+Dialogue: 0,0:00:48.89,0:00:50.50,Caption,,0,0,0,,{\pos(540,1296)}dua.
+Dialogue: 0,0:00:50.84,0:00:52.00,Caption,,0,0,0,,{\pos(540,1296)}Don't do it like that.
+Dialogue: 0,0:00:54.54,0:00:58.86,Caption,,0,0,0,,{\pos(540,1296)}Don't particularize what the\NSharia generalizes.
+Dialogue: 0,0:00:59.68,0:01:05.04,Caption,,0,0,0,,{\pos(540,1296)}Don't particularize what the\NSharia generalizes.
+Dialogue: 0,0:01:05.62,0:01:07.09,Caption,,0,0,0,,{\pos(540,1296)}You can make your dua in any
+Dialogue: 0,0:01:07.09,0:01:08.56,Caption,,0,0,0,,{\pos(540,1296)}of the sujood.
+Dialogue: 0,0:01:09.44,0:01:12.00,Caption,,0,0,0,,{\pos(540,1296)}Now don't make it become as\Nif
+Dialogue: 0,0:01:12.00,0:01:14.56,Caption,,0,0,0,,{\pos(540,1296)}the only time you can make\Nyour
+Dialogue: 0,0:01:14.56,0:01:17.12,Caption,,0,0,0,,{\pos(540,1296)}dua a sujood is when you are
+Dialogue: 0,0:01:17.12,0:01:19.68,Caption,,0,0,0,,{\pos(540,1296)}upon the last sujood.
+Dialogue: 0,0:01:20.38,0:01:22.12,Caption,,0,0,0,,{\pos(540,1296)}But if you want to make dua
+Dialogue: 0,0:01:22.12,0:01:23.86,Caption,,0,0,0,,{\pos(540,1296)}in sujood, you can make\NSallallahu Alaihi
+Dialogue: 0,0:01:23.86,0:01:25.60,Caption,,0,0,0,,{\pos(540,1296)}Nabi.
+Dialogue: 0,0:01:26.06,0:01:28.34,Caption,,0,0,0,,{\pos(540,1296)}If you want to make dua in
+Dialogue: 0,0:01:28.34,0:01:30.62,Caption,,0,0,0,,{\pos(540,1296)}all the eight sujood of a\Nfour
+Dialogue: 0,0:01:30.62,0:01:32.90,Caption,,0,0,0,,{\pos(540,1296)}raka'ah Sallah, yes you can\Nmake Sallahu
+Dialogue: 0,0:01:32.90,0:01:35.18,Caption,,0,0,0,,{\pos(540,1296)}Alaihi Nabi.
+Dialogue: 0,0:01:35.52,0:01:37.41,Caption,,0,0,0,,{\pos(540,1296)}Don't forget that is if you\Nare
+Dialogue: 0,0:01:37.41,0:01:39.31,Caption,,0,0,0,,{\pos(540,1296)}praying alone or you are\Nleading the
+Dialogue: 0,0:01:39.31,0:01:41.20,Caption,,0,0,0,,{\pos(540,1296)}people in prayer.
+

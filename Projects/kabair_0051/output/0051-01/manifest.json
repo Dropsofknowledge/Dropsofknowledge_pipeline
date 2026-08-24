@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0051-01",
+    "series":  "DropsofKnowledge",
+    "episode":  "0051",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Avoiding Major Sins Can Lead to Forgiveness and Paradise",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "kabair.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\kabair_0051\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:01:28.800",
+                   "end":  "00:03:18.960",
+                   "duration_sec":  110.16
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0051-01/clip.mp4",
+    "caption_cues":  32
+}

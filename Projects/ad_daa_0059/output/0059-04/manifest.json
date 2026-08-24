@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0059-04",
+    "series":  "DropsofKnowledge",
+    "episode":  "0059",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "How Small Is This World Compared to the Hereafter?",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "ad_daa.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\ad_daa_0059\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:20:03.680",
+                   "end":  "00:21:15.360",
+                   "duration_sec":  71.68
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0059-04/clip.mp4",
+    "caption_cues":  28
+}

@@ -1,0 +1,72 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.80,Caption,,0,0,0,,{\pos(540,1163)}please get close to him
+Dialogue: 0,0:00:02.18,0:00:03.30,Caption,,0,0,0,,{\pos(540,1163)}find means
+Dialogue: 0,0:00:03.30,0:00:04.96,Caption,,0,0,0,,{\pos(540,1163)}of talking to him
+Dialogue: 0,0:00:05.54,0:00:06.82,Caption,,0,0,0,,{\pos(540,1163)}raise these matters
+Dialogue: 0,0:00:06.82,0:00:08.14,Caption,,0,0,0,,{\pos(540,1163)}with him
+Dialogue: 0,0:00:08.64,0:00:10.46,Caption,,0,0,0,,{\pos(540,1163)}help him be able to observe\NSalah
+Dialogue: 0,0:00:10.46,0:00:11.40,Caption,,0,0,0,,{\pos(540,1163)}at its time
+Dialogue: 0,0:00:11.40,0:00:14.20,Caption,,0,0,0,,{\pos(540,1163)}for example most times most\Nof us
+Dialogue: 0,0:00:14.20,0:00:15.92,Caption,,0,0,0,,{\pos(540,1163)}by the time of Maghrib and\NIsha
+Dialogue: 0,0:00:15.92,0:00:17.30,Caption,,0,0,0,,{\pos(540,1163)}we are at home
+Dialogue: 0,0:00:17.30,0:00:18.66,Caption,,0,0,0,,{\pos(540,1163)}from work
+Dialogue: 0,0:00:18.66,0:00:21.56,Caption,,0,0,0,,{\pos(540,1163)}in fact from the time of Fajr
+Dialogue: 0,0:00:21.56,0:00:23.82,Caption,,0,0,0,,{\pos(540,1163)}if you are not living in\NLagos
+Dialogue: 0,0:00:23.82,0:00:24.99,Caption,,0,0,0,,{\pos(540,1163)}you might not have left for\Nyour
+Dialogue: 0,0:00:24.99,0:00:26.16,Caption,,0,0,0,,{\pos(540,1163)}office
+Dialogue: 0,0:00:26.16,0:00:28.10,Caption,,0,0,0,,{\pos(540,1163)}I understand that those of\Nour
+Dialogue: 0,0:00:28.10,0:00:29.80,Caption,,0,0,0,,{\pos(540,1163)}brothers in Lagos
+Dialogue: 0,0:00:29.80,0:00:31.92,Caption,,0,0,0,,{\pos(540,1163)}some of them even before Fajr
+Dialogue: 0,0:00:31.92,0:00:32.91,Caption,,0,0,0,,{\pos(540,1163)}they have left their home to\Nbe
+Dialogue: 0,0:00:32.91,0:00:33.90,Caption,,0,0,0,,{\pos(540,1163)}able
+Dialogue: 0,0:00:33.90,0:00:35.96,Caption,,0,0,0,,{\pos(540,1163)}to arrive at work
+Dialogue: 0,0:00:35.96,0:00:36.78,Caption,,0,0,0,,{\pos(540,1163)}to time
+Dialogue: 0,0:00:37.56,0:00:40.16,Caption,,0,0,0,,{\pos(540,1163)}but those outside Lagos it is\Npossible
+Dialogue: 0,0:00:40.16,0:00:41.94,Caption,,0,0,0,,{\pos(540,1163)}for you and many others too
+Dialogue: 0,0:00:41.94,0:00:43.22,Caption,,0,0,0,,{\pos(540,1163)}in Lagos
+Dialogue: 0,0:00:43.22,0:00:44.52,Caption,,0,0,0,,{\pos(540,1163)}you will be at home for\NSalatul
+Dialogue: 0,0:00:44.52,0:00:45.82,Caption,,0,0,0,,{\pos(540,1163)}Fajr
+Dialogue: 0,0:00:46.38,0:00:48.08,Caption,,0,0,0,,{\pos(540,1163)}for Salatul Maghrib
+Dialogue: 0,0:00:48.08,0:00:49.74,Caption,,0,0,0,,{\pos(540,1163)}and Salatul Isha
+Dialogue: 0,0:00:49.74,0:00:51.64,Caption,,0,0,0,,{\pos(540,1163)}one way to help your daddy
+Dialogue: 0,0:00:51.64,0:00:53.64,Caption,,0,0,0,,{\pos(540,1163)}please be at home
+Dialogue: 0,0:00:53.64,0:00:55.64,Caption,,0,0,0,,{\pos(540,1163)}go for those Salat
+Dialogue: 0,0:00:55.64,0:00:56.32,Caption,,0,0,0,,{\pos(540,1163)}with him
+Dialogue: 0,0:00:56.32,0:00:58.50,Caption,,0,0,0,,{\pos(540,1163)}be at home
+Dialogue: 0,0:00:58.50,0:01:01.16,Caption,,0,0,0,,{\pos(540,1163)}go for Salatul Fajr with him
+Dialogue: 0,0:01:01.16,0:01:03.52,Caption,,0,0,0,,{\pos(540,1163)}daddy let us go for
+Dialogue: 0,0:01:03.52,0:01:06.00,Caption,,0,0,0,,{\pos(540,1163)}Salatul Fajr wake him up
+Dialogue: 0,0:01:06.00,0:01:07.68,Caption,,0,0,0,,{\pos(540,1163)}in fact from the night
+Dialogue: 0,0:01:07.68,0:01:09.64,Caption,,0,0,0,,{\pos(540,1163)}help him be able to
+Dialogue: 0,0:01:09.64,0:01:10.62,Caption,,0,0,0,,{\pos(540,1163)}sleep early
+Dialogue: 0,0:01:10.62,0:01:13.52,Caption,,0,0,0,,{\pos(540,1163)}so that waking up for Fajr
+Dialogue: 0,0:01:13.52,0:01:16.00,Caption,,0,0,0,,{\pos(540,1163)}will not be of a burden
+Dialogue: 0,0:01:16.00,0:01:17.64,Caption,,0,0,0,,{\pos(540,1163)}go with him
+Dialogue: 0,0:01:17.64,0:01:19.70,Caption,,0,0,0,,{\pos(540,1163)}especially for Salatul Fajr
+Dialogue: 0,0:01:19.70,0:01:21.56,Caption,,0,0,0,,{\pos(540,1163)}you might be at work
+Dialogue: 0,0:01:21.56,0:01:22.90,Caption,,0,0,0,,{\pos(540,1163)}at Zuhr and Asr
+Dialogue: 0,0:01:22.90,0:01:24.16,Caption,,0,0,0,,{\pos(540,1163)}but you can call him to ask
+Dialogue: 0,0:01:24.16,0:01:25.42,Caption,,0,0,0,,{\pos(540,1163)}daddy
+Dialogue: 0,0:01:25.42,0:01:26.98,Caption,,0,0,0,,{\pos(540,1163)}it is time for Zuhr
+Dialogue: 0,0:01:26.98,0:01:29.36,Caption,,0,0,0,,{\pos(540,1163)}have you observed Zuhr
+Dialogue: 0,0:01:29.36,0:01:30.42,Caption,,0,0,0,,{\pos(540,1163)}or should I call one of my
+Dialogue: 0,0:01:30.42,0:01:31.48,Caption,,0,0,0,,{\pos(540,1163)}younger ones
+Dialogue: 0,0:01:31.48,0:01:32.68,Caption,,0,0,0,,{\pos(540,1163)}to bring you water
+Dialogue: 0,0:01:32.68,0:01:35.40,Caption,,0,0,0,,{\pos(540,1163)}are you going to the masjid
+Dialogue: 0,0:01:35.40,0:01:36.48,Caption,,0,0,0,,{\pos(540,1163)}it will be a kind of a
+Dialogue: 0,0:01:36.48,0:01:37.56,Caption,,0,0,0,,{\pos(540,1163)}reminder
+Dialogue: 0,0:01:37.56,0:01:39.38,Caption,,0,0,0,,{\pos(540,1163)}and pressure upon
+Dialogue: 0,0:01:39.38,0:01:40.88,Caption,,0,0,0,,{\pos(540,1163)}goodness for him
+

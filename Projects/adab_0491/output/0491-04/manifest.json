@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0491-04",
+    "series":  "Dropsofknowledge",
+    "episode":  "0491",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Your Everyday Work Can Become Worship",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "adab.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\adab_0491\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:30:40.310",
+                   "end":  "00:32:37.150",
+                   "duration_sec":  116.84
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0491-04/clip.mp4",
+    "caption_cues":  37
+}

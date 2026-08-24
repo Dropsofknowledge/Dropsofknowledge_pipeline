@@ -1,0 +1,73 @@
+{
+  "series": "DropsofKnowledge",
+  "episode": "0051",
+  "speaker": "Abu Naasir Ibrahim Abdulrauf",
+  "version": "5.3.1",
+  "source": "kabair051.amr",
+  "clips": [
+    {
+      "id": "0051-01",
+      "start": "00:01:28.800",
+      "end": "00:03:18.960",
+      "headline": "Avoiding Major Sins Can Lead to Forgiveness and Paradise",
+      "confidence": 0.96,
+      "flag": null
+    },
+    {
+      "id": "0051-02",
+      "start": "00:08:50.280",
+      "end": "00:10:49.560",
+      "headline": "A Leader Should Make Life Easier for the People",
+      "confidence": 0.97,
+      "flag": null
+    },
+    {
+      "id": "0051-03",
+      "start": "00:12:05.120",
+      "end": "00:14:00.180",
+      "headline": "Islamic Leadership Means Justice, Kindness, and Ease",
+      "confidence": 0.96,
+      "flag": null
+    },
+    {
+      "id": "0051-04",
+      "start": "00:30:06.620",
+      "end": "00:31:34.720",
+      "headline": "When Good People Stay Silent, Evil Can Spread",
+      "confidence": 0.95,
+      "flag": "Contains a broad warning about communal responsibility; preserve the lecturer's context when publishing."
+    },
+    {
+      "id": "0051-05",
+      "start": "00:40:52.760",
+      "end": "00:42:20.460",
+      "headline": "Why Muslims Must Encourage Good and Resist Evil",
+      "confidence": 0.97,
+      "flag": null
+    },
+    {
+      "id": "0051-06",
+      "start": "00:46:24.860",
+      "end": "00:48:05.640",
+      "headline": "The Danger of Seeing Evil and Refusing to Act",
+      "confidence": 0.97,
+      "flag": null
+    },
+    {
+      "id": "0051-07",
+      "start": "00:54:38.340",
+      "end": "00:56:12.300",
+      "headline": "When Religious Devotion Goes Beyond the Limits",
+      "confidence": 0.98,
+      "flag": null
+    },
+    {
+      "id": "0051-08",
+      "start": "00:57:22.940",
+      "end": "00:59:05.700",
+      "headline": "Your Body and Family Have Rights Over You Too",
+      "confidence": 0.98,
+      "flag": null
+    }
+  ]
+}

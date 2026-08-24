@@ -1,0 +1,53 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.04,Caption,,0,0,0,,{\pos(540,1296)}Because the Qibla is a\Ndirection,
+Dialogue: 0,0:00:02.04,0:00:04.08,Caption,,0,0,0,,{\pos(540,1296)}not a point. Please let us,
+Dialogue: 0,0:00:04.08,0:00:06.12,Caption,,0,0,0,,{\pos(540,1296)}that's the second rule.
+Dialogue: 0,0:00:07.12,0:00:10.21,Caption,,0,0,0,,{\pos(540,1296)}The first rule regarding\Nanswering this question
+Dialogue: 0,0:00:10.21,0:00:13.30,Caption,,0,0,0,,{\pos(540,1296)}is that not every deviation\Ncounts as
+Dialogue: 0,0:00:13.30,0:00:14.63,Caption,,0,0,0,,{\pos(540,1296)}deviation in terms of the\NQibla.
+Dialogue: 0,0:00:14.63,0:00:15.95,Caption,,0,0,0,,{\pos(540,1296)}Some does not count.
+Dialogue: 0,0:00:15.95,0:00:17.28,Caption,,0,0,0,,{\pos(540,1296)}It may be deviating,
+Dialogue: 0,0:00:17.28,0:00:18.60,Caption,,0,0,0,,{\pos(540,1296)}but it does not count.
+Dialogue: 0,0:00:19.04,0:00:20.77,Caption,,0,0,0,,{\pos(540,1296)}It does not count as from the
+Dialogue: 0,0:00:20.77,0:00:22.51,Caption,,0,0,0,,{\pos(540,1296)}things that will invalidate\NYusuf.
+Dialogue: 0,0:00:22.51,0:00:24.24,Caption,,0,0,0,,{\pos(540,1296)}It does not count to say you
+Dialogue: 0,0:00:24.24,0:00:26.29,Caption,,0,0,0,,{\pos(540,1296)}deviated from the Qibla.
+Dialogue: 0,0:00:26.29,0:00:28.35,Caption,,0,0,0,,{\pos(540,1296)}You are still within the\Nrange of
+Dialogue: 0,0:00:28.35,0:00:30.40,Caption,,0,0,0,,{\pos(540,1296)}the Qibla. That brings us to\Nthe
+Dialogue: 0,0:00:30.40,0:00:32.97,Caption,,0,0,0,,{\pos(540,1296)}second basic rule that the\NQibla is
+Dialogue: 0,0:00:32.97,0:00:35.55,Caption,,0,0,0,,{\pos(540,1296)}a direction and not a point.
+Dialogue: 0,0:00:35.55,0:00:38.12,Caption,,0,0,0,,{\pos(540,1296)}The meaning is that it has a
+Dialogue: 0,0:00:38.12,0:00:40.16,Caption,,0,0,0,,{\pos(540,1296)}wide range. If you are an\Narchitect
+Dialogue: 0,0:00:40.16,0:00:42.20,Caption,,0,0,0,,{\pos(540,1296)}or an engineering person,
+Dialogue: 0,0:00:42.20,0:00:44.24,Caption,,0,0,0,,{\pos(540,1296)}you understand what I mean.
+Dialogue: 0,0:00:44.66,0:00:47.37,Caption,,0,0,0,,{\pos(540,1296)}The difference between facing\Na point and
+Dialogue: 0,0:00:47.37,0:00:50.09,Caption,,0,0,0,,{\pos(540,1296)}facing a direction. There is\Na big
+Dialogue: 0,0:00:50.09,0:00:52.80,Caption,,0,0,0,,{\pos(540,1296)}difference between
+Dialogue: 0,0:00:52.80,0:00:54.85,Caption,,0,0,0,,{\pos(540,1296)}facing a point and facing a\Ndirection.
+Dialogue: 0,0:00:54.85,0:00:56.91,Caption,,0,0,0,,{\pos(540,1296)}The Qibla is a direction and\Nnot
+Dialogue: 0,0:00:56.91,0:00:58.96,Caption,,0,0,0,,{\pos(540,1296)}a point.
+Dialogue: 0,0:01:00.08,0:01:00.86,Caption,,0,0,0,,{\pos(540,1296)}Because Allah says,
+Dialogue: 0,0:01:01.14,0:01:04.72,Caption,,0,0,0,,{\pos(540,1296)}فَوَلُّ وُجُوهَكُمْ شَطْرَ\Nالْمَزْجِدِ الْفَرَامِ
+Dialogue: 0,0:01:04.72,0:01:07.16,Caption,,0,0,0,,{\pos(540,1296)}Shatra there means in the\Ndirection of
+Dialogue: 0,0:01:07.16,0:01:09.60,Caption,,0,0,0,,{\pos(540,1296)}Masjid al-Haram.
+Dialogue: 0,0:01:11.24,0:01:13.52,Caption,,0,0,0,,{\pos(540,1296)}فَوَلُّ وُجُوهَكُمْ\Nشَطْرَحَمِ
+Dialogue: 0,0:01:13.52,0:01:15.54,Caption,,0,0,0,,{\pos(540,1296)}This shatru is direction.
+Dialogue: 0,0:01:15.54,0:01:17.56,Caption,,0,0,0,,{\pos(540,1296)}So and then he said in that
+Dialogue: 0,0:01:17.56,0:01:19.58,Caption,,0,0,0,,{\pos(540,1296)}hadith of Abu Hurairah that
+Dialogue: 0,0:01:20.40,0:01:22.20,Caption,,0,0,0,,{\pos(540,1296)}فَوَلُّ وُجُوهَكُمْ\Nشَطْرَحَمِ
+Dialogue: 0,0:01:22.20,0:01:23.69,Caption,,0,0,0,,{\pos(540,1296)}So between the east and the\Nwest
+Dialogue: 0,0:01:23.69,0:01:25.17,Caption,,0,0,0,,{\pos(540,1296)}is the Qibla. It means the\NQibla
+Dialogue: 0,0:01:25.17,0:01:26.66,Caption,,0,0,0,,{\pos(540,1296)}is a direction.
+

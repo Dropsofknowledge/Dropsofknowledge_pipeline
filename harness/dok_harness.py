@@ -69,32 +69,56 @@ def resolve_paths(project_root, root_dir, series):
     for e in BG_EXT:
         p = os.path.join(root, f"background{e}")
         if os.path.exists(p): project_background = p; break
+    if not project_background and series:
+        series_bg_base = safe_name(series).lower()
+        for e in BG_EXT:
+            p = os.path.join(root, f"{series_bg_base}{e}")
+            if os.path.exists(p):
+                project_background = p
+                break
     cp = os.path.join(root, "clip_plan.json")
     clip_plan = cp if os.path.exists(cp) else None
     tmpl_dir = None
-    if series:
+    template = None
+    project_layout = os.path.join(root, "layout.json")
+    if os.path.exists(project_layout):
+        template = project_layout
+        tmpl_dir = root
+    elif series:
         c = os.path.join(root_dir, "templates", safe_name(series).lower())
-        if os.path.exists(os.path.join(c, "layout.json")): tmpl_dir = c
-    if not tmpl_dir:
+        if os.path.exists(os.path.join(c, "layout.json")):
+            tmpl_dir = c
+            template = os.path.join(tmpl_dir, "layout.json")
+    if not template:
         d = os.path.join(root_dir, "templates/default")
-        if os.path.exists(os.path.join(d, "layout.json")): tmpl_dir = d
-    template = os.path.join(tmpl_dir, "layout.json") if tmpl_dir else None
+        if os.path.exists(os.path.join(d, "layout.json")):
+            tmpl_dir = d
+            template = os.path.join(tmpl_dir, "layout.json")
 
     # Prefer a project-specific background supplied in the source folder.
     # If the template opts out, its own background wins. Otherwise, the
     # project background wins over the template background, and the asset
     # fallback is used only if neither exists.
-    background = project_background
-    if not background and template:
+    background = None
+    template_background = None
+    allow_project_background = True
+    if template and os.path.exists(template):
         try:
             with open(template, encoding='utf-8') as fh:
-                bg_name = json.load(fh).get('background')
+                layout_obj = json.load(fh)
+            if layout_obj.get("allow_project_background") is False and template != project_layout:
+                allow_project_background = False
+            bg_name = layout_obj.get('background')
             if bg_name:
                 cand = os.path.join(tmpl_dir, bg_name)
                 if os.path.exists(cand):
-                    background = cand
+                    template_background = cand
         except Exception:
             pass
+    if template_background:
+        background = template_background
+    elif allow_project_background and project_background:
+        background = project_background
     if not background:
         d = os.path.join(root_dir, "assets/default_background.png")
         if os.path.exists(d):
@@ -304,7 +328,7 @@ def render_overlay_png(layout, out_png, headline='', speaker='', clip_id=''):
     draw = ImageDraw.Draw(img)
     draw._dok_layout = layout
     els = layout['elements']
-    # ID number (single line, beside baked banner)
+    # Project/episode code (single line, beside baked banner)
     idel = els.get('id', {})
     if idel.get('enabled') and clip_id:
         idtext = (idel.get('prefix', '') + str(clip_id))
@@ -585,7 +609,7 @@ def render_project(project_root, root_dir, force=False):
             os.makedirs(clip_out, exist_ok=True)
             start = to_seconds(clip['start']); end = to_seconds(clip['end']); dur = end-start
             overlay = os.path.join(clip_out, 'overlay.png'); bframe = os.path.join(clip_out, 'base.png')
-            if not render_overlay_png(layout, overlay, clip.get('headline',''), speaker, cid):
+            if not render_overlay_png(layout, overlay, clip.get('headline',''), speaker, episode):
                 raise RuntimeError('Failed to render overlay.')
             if not base_frame(paths['Background'], overlay, bframe, cw, ch): raise RuntimeError('Failed to build base frame.')
             ass = os.path.join(clip_out, 'captions.ass')
@@ -630,6 +654,9 @@ def import_lecture(root_dir, series, episode, source_folder):
     for d in (pdir, *(os.path.join(pdir, s) for s in ('output','logs','reports','cache'))):
         os.makedirs(d, exist_ok=True)
     accepted = {f'audio{e}' for e in AUDIO_EXT} | {f'transcript{e}' for e in TRANSCRIPT_EXT} | {f'background{e}' for e in BG_EXT} | {'clip_plan.json'}
+    accepted.add('layout.json')
+    series_safe = safe_name(series).lower()
+    source_safe = safe_name(os.path.basename(os.path.normpath(source_folder))).lower()
     copied = []
     for f in os.listdir(source_folder):
         fp = os.path.join(source_folder, f)
@@ -639,9 +666,34 @@ def import_lecture(root_dir, series, episode, source_folder):
         elif f'audio{ext}' in accepted: target = f'audio{ext}'
         elif f'transcript{ext}' in accepted: target = f'transcript{ext}'
         elif f'background{ext}' in accepted: target = f'background{ext}'
+        elif os.path.splitext(f)[0].lower() in {series_safe, source_safe} and ext in BG_EXT:
+            target = f
         if target:
             dest = os.path.join(pdir, target)
             if not os.path.exists(dest): shutil.copy2(fp, dest); copied.append(target)
+
+    # Seed a local layout/background from the series template so the project
+    # can render without manual copying into the source folder.
+    tmpl_layout = None
+    tmpl_dir = None
+    if os.path.exists(os.path.join(root_dir, 'templates', safe_name(series).lower(), 'layout.json')):
+        tmpl_dir = os.path.join(root_dir, 'templates', safe_name(series).lower())
+    elif os.path.exists(os.path.join(root_dir, 'templates/default', 'layout.json')):
+        tmpl_dir = os.path.join(root_dir, 'templates/default')
+    if tmpl_dir:
+        tmpl_layout = os.path.join(tmpl_dir, 'layout.json')
+        proj_layout = os.path.join(pdir, 'layout.json')
+        if not os.path.exists(proj_layout):
+            layout_obj = json.load(open(tmpl_layout, encoding='utf-8'))
+            bg_name = layout_obj.get('background')
+            if bg_name:
+                src_bg = os.path.join(tmpl_dir, bg_name)
+                if os.path.exists(src_bg):
+                    bg_ext = os.path.splitext(src_bg)[1].lower()
+                    bg_file = f"{safe_name(series).lower()}{bg_ext}"
+                    shutil.copy2(src_bg, os.path.join(pdir, bg_file))
+                    layout_obj['background'] = bg_file
+            json.dump(layout_obj, open(proj_layout, 'w', encoding='utf-8'), indent=2)
     pp = os.path.join(pdir, 'clip_plan.json')
     if not os.path.exists(pp):
         json.dump(dict(series=safe_name(series).lower(), episode=safe_name(episode), speaker='', clips=[]), open(pp,'w'), indent=2)

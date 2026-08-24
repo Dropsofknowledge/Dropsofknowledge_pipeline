@@ -1,0 +1,39 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.30,Caption,,0,0,0,,{\pos(540,1296)}So, it becomes deen for you,
+Dialogue: 0,0:00:02.30,0:00:04.60,Caption,,0,0,0,,{\pos(540,1296)}it becomes worship for you.
+Dialogue: 0,0:00:04.94,0:00:06.58,Caption,,0,0,0,,{\pos(540,1296)}So, when you avoid rebar,
+Dialogue: 0,0:00:06.58,0:00:08.22,Caption,,0,0,0,,{\pos(540,1296)}for example, in your business\Ntransaction,
+Dialogue: 0,0:00:08.44,0:00:10.59,Caption,,0,0,0,,{\pos(540,1296)}that business transaction\Nbecomes an Ibadah for
+Dialogue: 0,0:00:10.59,0:00:12.74,Caption,,0,0,0,,{\pos(540,1296)}you, for the sake of Allah.
+Dialogue: 0,0:00:14.32,0:00:15.89,Caption,,0,0,0,,{\pos(540,1296)}When you avoid selling what\Nyou don't
+Dialogue: 0,0:00:15.89,0:00:17.45,Caption,,0,0,0,,{\pos(540,1296)}have, for example, you don't\Nown,
+Dialogue: 0,0:00:17.45,0:00:19.02,Caption,,0,0,0,,{\pos(540,1296)}for example,
+Dialogue: 0,0:00:19.02,0:00:21.32,Caption,,0,0,0,,{\pos(540,1296)}that your business\Ntransaction becomes a means
+Dialogue: 0,0:00:21.32,0:00:23.62,Caption,,0,0,0,,{\pos(540,1296)}of Ibadah for you.
+Dialogue: 0,0:00:24.44,0:00:26.49,Caption,,0,0,0,,{\pos(540,1296)}So, this is how our worldly\Naffairs
+Dialogue: 0,0:00:26.49,0:00:28.55,Caption,,0,0,0,,{\pos(540,1296)}becomes Ibadah for we,
+Dialogue: 0,0:00:28.55,0:00:30.60,Caption,,0,0,0,,{\pos(540,1296)}the people of Islam.
+Dialogue: 0,0:00:31.30,0:00:34.53,Caption,,0,0,0,,{\pos(540,1296)}When you dress, you wear\Nclothes,
+Dialogue: 0,0:00:34.53,0:00:37.76,Caption,,0,0,0,,{\pos(540,1296)}what you wear, it fulfills\Nthe limit,
+Dialogue: 0,0:00:38.06,0:00:39.75,Caption,,0,0,0,,{\pos(540,1296)}the instructions, the\Nrestrictions of the Sharia
+Dialogue: 0,0:00:39.75,0:00:41.44,Caption,,0,0,0,,{\pos(540,1296)}are considered,
+Dialogue: 0,0:00:41.64,0:00:44.37,Caption,,0,0,0,,{\pos(540,1296)}when you select the material\Nthat you
+Dialogue: 0,0:00:44.37,0:00:47.10,Caption,,0,0,0,,{\pos(540,1296)}wear, and how you wear it.
+Dialogue: 0,0:00:47.10,0:00:48.77,Caption,,0,0,0,,{\pos(540,1296)}All of these have rules in\Nour
+Dialogue: 0,0:00:48.77,0:00:50.44,Caption,,0,0,0,,{\pos(540,1296)}religion, Islam.
+Dialogue: 0,0:00:51.02,0:00:52.93,Caption,,0,0,0,,{\pos(540,1296)}In fact, as simple as wearing\Na
+Dialogue: 0,0:00:52.93,0:00:54.85,Caption,,0,0,0,,{\pos(540,1296)}ring, which hand do you wear\Nthe
+Dialogue: 0,0:00:54.85,0:00:56.76,Caption,,0,0,0,,{\pos(540,1296)}ring?
+

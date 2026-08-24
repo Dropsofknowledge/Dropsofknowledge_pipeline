@@ -1,0 +1,51 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.82,0:00:02.46,Caption,,0,0,0,,{\pos(540,1296)}Everything is for Allah,
+Dialogue: 0,0:00:03.08,0:00:04.80,Caption,,0,0,0,,{\pos(540,1296)}in your Deen, in your\Nreligion,
+Dialogue: 0,0:00:05.00,0:00:06.92,Caption,,0,0,0,,{\pos(540,1296)}in your worship, in your\Ndevotion.
+Dialogue: 0,0:00:08.54,0:00:10.14,Caption,,0,0,0,,{\pos(540,1296)}Everything is for Allah,
+Dialogue: 0,0:00:11.28,0:00:13.42,Caption,,0,0,0,,{\pos(540,1296)}in your worldly life.
+Dialogue: 0,0:00:15.18,0:00:17.16,Caption,,0,0,0,,{\pos(540,1296)}Everything is for Allah too,
+Dialogue: 0,0:00:17.44,0:00:18.88,Caption,,0,0,0,,{\pos(540,1296)}in your worldly life.
+Dialogue: 0,0:00:19.98,0:00:21.33,Caption,,0,0,0,,{\pos(540,1296)}So, you can now say,
+Dialogue: 0,0:00:21.33,0:00:22.68,Caption,,0,0,0,,{\pos(540,1296)}are you also saying that,
+Dialogue: 0,0:00:22.68,0:00:25.54,Caption,,0,0,0,,{\pos(540,1296)}when I transact business,
+Dialogue: 0,0:00:26.82,0:00:27.86,Caption,,0,0,0,,{\pos(540,1296)}it should be for Allah?
+Dialogue: 0,0:00:28.20,0:00:28.46,Caption,,0,0,0,,{\pos(540,1296)}Yes.
+Dialogue: 0,0:00:28.64,0:00:29.32,Caption,,0,0,0,,{\pos(540,1296)}How?
+Dialogue: 0,0:00:30.36,0:00:33.28,Caption,,0,0,0,,{\pos(540,1296)}The rules in your business\Ntransactions,
+Dialogue: 0,0:00:34.46,0:00:36.39,Caption,,0,0,0,,{\pos(540,1296)}must be in line with the\Ninstructions
+Dialogue: 0,0:00:36.39,0:00:38.32,Caption,,0,0,0,,{\pos(540,1296)}of the Sharia.
+Dialogue: 0,0:00:39.08,0:00:40.86,Caption,,0,0,0,,{\pos(540,1296)}Whatever Allah has\Nprohibited,
+Dialogue: 0,0:00:41.68,0:00:42.80,Caption,,0,0,0,,{\pos(540,1296)}you must not do.
+Dialogue: 0,0:01:07.18,0:01:08.18,Caption,,0,0,0,,{\pos(540,1296)}...
+Dialogue: 0,0:01:13.44,0:01:14.60,Caption,,0,0,0,,{\pos(540,1296)}Can we hear me,
+Dialogue: 0,0:01:14.60,0:01:15.76,Caption,,0,0,0,,{\pos(540,1296)}Ikhoa?
+Dialogue: 0,0:01:17.88,0:01:18.80,Caption,,0,0,0,,{\pos(540,1296)}Can we hear me,
+Dialogue: 0,0:01:18.80,0:01:19.72,Caption,,0,0,0,,{\pos(540,1296)}Ikhoa?
+Dialogue: 0,0:01:19.72,0:01:22.83,Caption,,0,0,0,,{\pos(540,1296)}So, in the matters of your\Nbusiness
+Dialogue: 0,0:01:22.83,0:01:25.94,Caption,,0,0,0,,{\pos(540,1296)}transactions, Allah has\Nprohibited rebar.
+Dialogue: 0,0:01:27.02,0:01:30.26,Caption,,0,0,0,,{\pos(540,1296)}So, if you avoid rebar,
+Dialogue: 0,0:01:30.26,0:01:33.50,Caption,,0,0,0,,{\pos(540,1296)}and very many other business\Ntransactions,
+Dialogue: 0,0:01:34.46,0:01:36.97,Caption,,0,0,0,,{\pos(540,1296)}that the Sharia has\Nprohibited,
+Dialogue: 0,0:01:36.97,0:01:39.49,Caption,,0,0,0,,{\pos(540,1296)}by that, your worldly life\Nregarding your
+Dialogue: 0,0:01:39.49,0:01:42.00,Caption,,0,0,0,,{\pos(540,1296)}business,
+Dialogue: 0,0:01:42.36,0:01:43.69,Caption,,0,0,0,,{\pos(540,1296)}would be for the sake of\NAllah.
+Dialogue: 0,0:01:43.69,0:01:45.02,Caption,,0,0,0,,{\pos(540,1296)}Why?
+Dialogue: 0,0:01:45.02,0:01:47.35,Caption,,0,0,0,,{\pos(540,1296)}Because you have employed the\Nrestrictions,
+Dialogue: 0,0:01:47.35,0:01:49.69,Caption,,0,0,0,,{\pos(540,1296)}and the limitations of the\NSharia in
+Dialogue: 0,0:01:49.69,0:01:52.02,Caption,,0,0,0,,{\pos(540,1296)}it.
+Dialogue: 0,0:01:52.24,0:01:54.54,Caption,,0,0,0,,{\pos(540,1296)}So, it becomes deen for you,
+Dialogue: 0,0:01:54.54,0:01:56.84,Caption,,0,0,0,,{\pos(540,1296)}it becomes worship for you.
+

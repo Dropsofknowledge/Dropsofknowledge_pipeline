@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "ad_daa_0059_0059-01",
+      "status": "draft",
+      "lecture_id": "ad_daa_0059",
+      "clip_id": "0059-01",
+      "headline": "When Comfort Becomes a Gradual Punishment",
+      "speaker": "Abu Naasir Ibrahim Abdulrauf",
+      "series": "DropsofKnowledge",
+      "clip_file": "Projects/ad_daa_0059/output/0059-01/clip.mp4",
+      "duration_sec": 90.0,
+      "clip_start_sec": 514.14,
+      "clip_end_sec": 604.14,
+      "platforms": [
+        "youtube",
+        "facebook"
+      ],
+      "title": "When Comfort Leads to Gradual Punishment – Abu Naasir Ibrahim Abdulrauf",
+      "description": "In this talk Abu Naasir Ibrahim Abdulrauf explains how ease and complacency in sinful behavior can become a gradual path to Allah’s punishment, as the heart forgets divine reminders. He reflects on Qur'anic verses that warn of such spiritual decline. Listen to the full lecture to understand the warning and seek protection.",
+      "scheduled_time": null,
+      "published": {}
+    },
+    {
+      "id": "ad_daa_0059_0059-02",
+      "status": "approved",
+      "lecture_id": "ad_daa_0059",
+      "clip_id": "0059-02",
+      "headline": "Do Not Trade the Hereafter for Immediate Wealth",
+      "speaker": "Abu Naasir Ibrahim Abdulrauf",
+      "series": "DropsofKnowledge",
+      "clip_file": "Projects/ad_daa_0059/output/0059-02/clip.mp4",
+      "duration_sec": 72.94,
+      "clip_start_sec": 730.42,
+      "clip_end_sec": 803.36,
+      "platforms": [
+        "youtube",
+        "facebook"
+      ],
+      "title": "Do Not Trade the Hereafter for Immediate Wealth",
+      "description": "Abu Naasir Ibrahim Abdulrauf warns against sacrificing the Hereafter for immediate worldly wealth, emphasizing the spiritual harm of seeking quick cash through unethical means. Listen to his advice on patience, prayer, and prioritizing the eternal over the temporal.",
+      "scheduled_time": "2026-08-25T17:00",
+      "published": {
+        "youtube": {
+          "post_id": "mJGzx6XcXIo",
+          "url": "https://youtu.be/mJGzx6XcXIo",
+          "at": "2026-08-24T12:32:26+00:00"
+        }
+      },
+      "approved_at": "2026-08-23T23:28:36+01:00",
+      "platform_rotation": "youtube"
+    }
+  ]
+}

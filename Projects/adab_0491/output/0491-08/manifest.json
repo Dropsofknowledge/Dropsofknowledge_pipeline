@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0491-08",
+    "series":  "Dropsofknowledge",
+    "episode":  "0491",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "The Qibla Is a Direction, Not a Single Point",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "adab.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\adab_0491\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:52:39.980",
+                   "end":  "00:54:06.640",
+                   "duration_sec":  86.66
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0491-08/clip.mp4",
+    "caption_cues":  39
+}

@@ -1,0 +1,48 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.68,Caption,,0,0,0,,{\pos(540,1163)}Just
+Dialogue: 0,0:00:02.98,0:00:05.64,Caption,,0,0,0,,{\pos(540,1163)}Just as that servant likes it
+Dialogue: 0,0:00:06.08,0:00:07.18,Caption,,0,0,0,,{\pos(540,1163)}The Prophet said
+Dialogue: 0,0:00:12.48,0:00:14.87,Caption,,0,0,0,,{\pos(540,1163)}Let it be clear,
+Dialogue: 0,0:00:14.87,0:00:17.26,Caption,,0,0,0,,{\pos(540,1163)}that is nothing except his\Ntidraj
+Dialogue: 0,0:00:17.26,0:00:19.35,Caption,,0,0,0,,{\pos(540,1163)}Is a gradual approach to get\Nhim
+Dialogue: 0,0:00:19.35,0:00:21.44,Caption,,0,0,0,,{\pos(540,1163)}caught up
+Dialogue: 0,0:00:21.44,0:00:23.78,Caption,,0,0,0,,{\pos(540,1163)}In the punishment of Allah
+Dialogue: 0,0:00:23.78,0:00:27.48,Caption,,0,0,0,,{\pos(540,1163)}He is gradually being wrapped\Nup
+Dialogue: 0,0:00:27.48,0:00:30.47,Caption,,0,0,0,,{\pos(540,1163)}The punishment will soon wrap\Nhim up
+Dialogue: 0,0:00:30.84,0:00:33.36,Caption,,0,0,0,,{\pos(540,1163)}For he is made to forget
+Dialogue: 0,0:00:33.36,0:00:35.87,Caption,,0,0,0,,{\pos(540,1163)}He is given the chance to\Nforget
+Dialogue: 0,0:00:35.87,0:00:38.37,Caption,,0,0,0,,{\pos(540,1163)}that he will be caught up one
+Dialogue: 0,0:00:38.37,0:00:40.88,Caption,,0,0,0,,{\pos(540,1163)}day
+Dialogue: 0,0:00:40.88,0:00:43.78,Caption,,0,0,0,,{\pos(540,1163)}So that explains that verse\Nwe read
+Dialogue: 0,0:00:43.78,0:00:45.46,Caption,,0,0,0,,{\pos(540,1163)}When Allah said
+Dialogue: 0,0:00:47.36,0:00:49.21,Caption,,0,0,0,,{\pos(540,1163)}When they forget what they\Nhave been
+Dialogue: 0,0:00:49.21,0:00:51.06,Caption,,0,0,0,,{\pos(540,1163)}reminded of
+Dialogue: 0,0:00:51.06,0:00:52.92,Caption,,0,0,0,,{\pos(540,1163)}We will open for them the\Ngates
+Dialogue: 0,0:00:52.92,0:00:54.78,Caption,,0,0,0,,{\pos(540,1163)}of everything
+Dialogue: 0,0:00:54.78,0:00:56.69,Caption,,0,0,0,,{\pos(540,1163)}So that when they rejoice in\Nwhat
+Dialogue: 0,0:00:56.69,0:00:58.60,Caption,,0,0,0,,{\pos(540,1163)}they have been given
+Dialogue: 0,0:00:58.60,0:00:59.41,Caption,,0,0,0,,{\pos(540,1163)}They will take what they have\Nbeen
+Dialogue: 0,0:00:59.41,0:01:00.22,Caption,,0,0,0,,{\pos(540,1163)}given
+Dialogue: 0,0:01:01.26,0:01:04.62,Caption,,0,0,0,,{\pos(540,1163)}So that they will be blessed
+Dialogue: 0,0:01:04.62,0:01:08.60,Caption,,0,0,0,,{\pos(540,1163)}We beg Allah to protect us\Nall
+Dialogue: 0,0:01:09.06,0:01:10.00,Caption,,0,0,0,,{\pos(540,1163)}Brothers
+Dialogue: 0,0:01:10.00,0:01:12.37,Caption,,0,0,0,,{\pos(540,1163)}When you get everything you\Nwant on
+Dialogue: 0,0:01:12.37,0:01:14.74,Caption,,0,0,0,,{\pos(540,1163)}sinfulness
+Dialogue: 0,0:01:15.74,0:01:17.28,Caption,,0,0,0,,{\pos(540,1163)}You are up on a river
+Dialogue: 0,0:01:17.28,0:01:19.80,Caption,,0,0,0,,{\pos(540,1163)}You are up on yahu
+Dialogue: 0,0:01:20.38,0:01:23.12,Caption,,0,0,0,,{\pos(540,1163)}You make ritual killings to\Ngain wealth
+Dialogue: 0,0:01:23.74,0:01:27.06,Caption,,0,0,0,,{\pos(540,1163)}You steal the money belonging\Nto government
+Dialogue: 0,0:01:27.74,0:01:30.00,Caption,,0,0,0,,{\pos(540,1163)}You are a court judge
+

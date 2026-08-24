@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0051-08",
+    "series":  "DropsofKnowledge",
+    "episode":  "0051",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Your Body and Family Have Rights Over You Too",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "kabair.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\kabair_0051\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:57:22.940",
+                   "end":  "00:59:05.700",
+                   "duration_sec":  102.76
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0051-08/clip.mp4",
+    "caption_cues":  48
+}

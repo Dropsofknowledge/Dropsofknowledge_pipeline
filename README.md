@@ -90,6 +90,8 @@ Projects/Kabair_0048/
 - **Transcript** (`transcript.*`): json (Whisper-style `segments`), srt, vtt.
 - **Background** (`background.*`): jpg, jpeg, png, webp. Falls back to
   `assets/default_background.png`.
+- **Layout override** (`layout.json`): optional project-local template. If
+  present, it overrides `templates/<series>/layout.json`.
 - **Plan**: `clip_plan.json`.
 
 ---
@@ -136,6 +138,10 @@ chunks captions into short readable cues styled white-on-black-outline.
 
 To brand a new series, copy `templates/default/` to `templates/<series>/`,
 adjust `layout.json`, and (optionally) drop a series `background.*`.
+If a project folder includes its own `layout.json`, that file wins, which makes
+it easy to keep a series-specific layout and matching background next to the
+source lecture folder so the import step can pick them up without manual copy
+or renaming.
 
 ---
 
@@ -169,6 +175,60 @@ already-completed clip — exactly the acceptance criteria in spec 22.
 - ✅ MP4 + report + manifest + preview per clip — `output/<id>/`
 - ✅ Startup menu + import wizard with explicit paths — no CWD guessing
 - ✅ Rebuildable from the spec alone — modular scripts, no hidden state
+
+## 9. Ingestion, transcription, backup & dataset logging
+
+Beyond rendering, the repo ships small standalone tools (Python 3.12):
+
+| Task | Command | Notes |
+|------|---------|-------|
+| Fetch lecture audio from Telegram | `python scripts\telegram_fetch.py` | watches `TELEGRAM_SOURCE_GROUP` from `.env`; dedupe ledger in `state/telegram_state.json`; `--discover`, `--dry-run`, `--watch` |
+| One-time Telegram login | double-click `LOGIN_TELEGRAM.cmd` | creates `dok_fetcher.session` (gitignored) |
+| Transcribe a lecture | `python scripts\transcribe.py <file-or-folder> --language ar` | Groq free-tier Whisper large-v3 (`GROQ_API_KEY` in `.env`); writes `transcript.srt` + `transcript.json`; chunked + retry-safe |
+| Log transcript/plan pairs | `python scripts\log_dataset.py` | upserts into `state/dataset_log.db` (SQLite); storage only — never generates plans |
+| Back everything up | double-click `BACKUP.cmd` | pushes code/templates/plans/transcripts/reports/logs/DB to the private `dok-backup` repo; raw media excluded on purpose |
+
+Typical flow for a new episode: `telegram_fetch.py` → drop audio into a source
+folder → `transcribe.py <folder>` → author `clip_plan.json` → import via
+`START_HERE.cmd` → `RUN_PROJECT.cmd`.
+
+## 10. Publishing framework (task 6)
+
+Mechanical upload/scheduling layer. Nothing here decides what to post —
+entries come only from clips you already rendered from your own clip plan,
+and nothing publishes unless you flipped it to `approved`.
+
+```powershell
+# 1. queue drafts from rendered clips
+python scripts\publish.py add --project Projects\ad_daa_0059 --platforms youtube,tiktok,instagram,facebook
+
+# 2. LLM-drafts title/description into the entries (stays "draft")
+python scripts\publish.py draft --all-drafts
+
+# 3. YOU edit state\publish_queue.json (title/description/slot), then approve
+python scripts\publish.py approve --id ad_daa_0059_0059-02
+
+# 4. deterministic cadence fills scheduled_time on approved entries (no AI)
+python scripts\publish.py schedule --every-days 2 --at 17:00
+
+# 5. manual uploads - each refuses anything not approved/published already
+python scripts\upload_youtube.py  --login        # one-time OAuth consent
+python scripts\upload_tiktok.py   --login        # one-time OAuth consent
+python scripts\upload_youtube.py  --id ad_daa_0059_0059-02
+python scripts\upload_tiktok.py   --id ad_daa_0059_0059-02 [--dry-run]
+python scripts\upload_instagram.py --id ad_daa_0059_0059-02
+python scripts\upload_facebook.py  --id ad_daa_0059_0059-02
+```
+
+- Queue lives at `state/publish_queue.json` (plain JSON; edit freely).
+- `published` is written only after a confirmed API response, with post id + URL.
+- YouTube uses `publishAt` and Facebook uses `scheduled_publish_time` for native
+  scheduling; TikTok/Instagram publish when you run their script at the slot time.
+  TikTok posts stay SELF_ONLY until the app passes TikTok's content audit.
+- Platform credentials are yours to set up; read from `.env` only (see `.env.example`).
+- Setup walkthrough: `docs/PUBLISHING_SETUP.md`.
+- Sanity-check everything without posting:
+  `python scripts\publish_preflight.py [--live-tiktok] [--live-ig] [--live-fb]`.
 
 ## Kabair poster template status
 

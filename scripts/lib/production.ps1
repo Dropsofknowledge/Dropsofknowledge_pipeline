@@ -41,21 +41,40 @@ function Resolve-DokPaths {
     foreach ($e in $script:DokBackgroundExt) {
         $p = Join-Path $root "background$e"; if (Test-Path -LiteralPath $p) { $projectBackground = (Resolve-Path -LiteralPath $p).Path; break }
     }
+    if (-not $projectBackground -and $Series) {
+        $seriesBgBase = (Get-DokSafeName $Series).ToLower()
+        foreach ($e in $script:DokBackgroundExt) {
+            $p = Join-Path $root "$seriesBgBase$e"
+            if (Test-Path -LiteralPath $p) { $projectBackground = (Resolve-Path -LiteralPath $p).Path; break }
+        }
+    }
 
     $clipPlanPath = Join-Path $root 'clip_plan.json'
     $clipPlan = if (Test-Path -LiteralPath $clipPlanPath) { (Resolve-Path -LiteralPath $clipPlanPath).Path } else { $null }
 
-    # Template resolves by series; falls back to templates/default.
+    # Layout resolves by project-local override first, then by series template,
+    # then by templates/default. That allows source-folder layouts to travel
+    # with the project without manual copying.
     $tmplDir = $null
-    if ($Series) {
+    $template = $null
+    $projectLayout = Join-Path $root 'layout.json'
+    if (Test-Path -LiteralPath $projectLayout) {
+        $template = (Resolve-Path -LiteralPath $projectLayout).Path
+        $tmplDir = $root
+    } elseif ($Series) {
         $cand = Join-Path $RootDir ("templates/" + (Get-DokSafeName $Series).ToLower())
-        if (Test-Path -LiteralPath (Join-Path $cand 'layout.json')) { $tmplDir = $cand }
+        if (Test-Path -LiteralPath (Join-Path $cand 'layout.json')) {
+            $tmplDir = $cand
+            $template = Join-Path $tmplDir 'layout.json'
+        }
     }
-    if (-not $tmplDir) {
+    if (-not $template) {
         $def = Join-Path $RootDir 'templates/default'
-        if (Test-Path -LiteralPath (Join-Path $def 'layout.json')) { $tmplDir = $def }
+        if (Test-Path -LiteralPath (Join-Path $def 'layout.json')) {
+            $tmplDir = $def
+            $template = Join-Path $tmplDir 'layout.json'
+        }
     }
-    $template = if ($tmplDir) { Join-Path $tmplDir 'layout.json' } else { $null }
 
     # Prefer a project-specific background supplied in the source folder.
     # If the template opts out, its own background wins. Otherwise, the
@@ -67,7 +86,9 @@ function Resolve-DokPaths {
     if ($template -and (Test-Path -LiteralPath $template)) {
         try {
             $layoutObj = Get-Content -LiteralPath $template -Raw -Encoding utf8 | ConvertFrom-Json
-            if (($layoutObj.PSObject.Properties.Name -contains 'allow_project_background') -and ($layoutObj.allow_project_background -eq $false)) {
+            if (($layoutObj.PSObject.Properties.Name -contains 'allow_project_background') -and
+                ($layoutObj.allow_project_background -eq $false) -and
+                ($template -ne $projectLayout)) {
                 $allowProjectBackground = $false
             }
             if (($layoutObj.PSObject.Properties.Name -contains 'background') -and $layoutObj.background) {
@@ -129,6 +150,9 @@ function Import-DokLecture {
     foreach ($e in $script:DokTranscriptExt) { $accepted["transcript$e"] = $true }
     foreach ($e in $script:DokBackgroundExt) { $accepted["background$e"] = $true }
     $accepted['clip_plan.json'] = $true
+    $accepted['layout.json'] = $true
+    $seriesSafe = (Get-DokSafeName $Series).ToLower()
+    $sourceSafe = (Get-DokSafeName (Split-Path -Path $SourceFolder -Leaf)).ToLower()
 
     $copied = New-Object System.Collections.Generic.List[string]
     foreach ($f in Get-ChildItem -LiteralPath $SourceFolder -File) {
@@ -141,6 +165,9 @@ function Import-DokLecture {
             if ($accepted.ContainsKey("audio$ext"))      { $target = "audio$ext" }
             elseif ($accepted.ContainsKey("transcript$ext")) { $target = "transcript$ext" }
             elseif ($accepted.ContainsKey("background$ext")) { $target = "background$ext" }
+            elseif (($f.BaseName.ToLower() -eq $seriesSafe) -or ($f.BaseName.ToLower() -eq $sourceSafe)) {
+                if ($script:DokBackgroundExt -contains $ext) { $target = $f.Name }
+            }
         }
         if ($target) {
             $dest = Join-Path $projDir $target
@@ -149,6 +176,42 @@ function Import-DokLecture {
                 $copied.Add($target)
             }
         }
+    }
+
+    # Seed a project-local layout/background from the series template so the
+    # renderer can run immediately without manual copying into the source
+    # folder. The project-local files win over the shared series template.
+    $templateLayoutPath = $null
+    $templateBackgroundPath = $null
+    $seriesTemplateDir = $null
+    if ($Series) {
+        $cand = Join-Path $RootDir ("templates/" + (Get-DokSafeName $Series).ToLower())
+        if (Test-Path -LiteralPath (Join-Path $cand 'layout.json')) { $seriesTemplateDir = $cand }
+    }
+    if (-not $seriesTemplateDir) {
+        $def = Join-Path $RootDir 'templates/default'
+        if (Test-Path -LiteralPath (Join-Path $def 'layout.json')) { $seriesTemplateDir = $def }
+    }
+    if ($seriesTemplateDir) {
+        $templateLayoutPath = Join-Path $seriesTemplateDir 'layout.json'
+        try {
+            $layoutObj = Get-Content -LiteralPath $templateLayoutPath -Raw -Encoding utf8 | ConvertFrom-Json
+            $bgName = if (($layoutObj.PSObject.Properties.Name -contains 'background') -and $layoutObj.background) { [string]$layoutObj.background } else { $null }
+            if ($bgName) {
+                $srcBg = Join-Path $seriesTemplateDir $bgName
+                if (Test-Path -LiteralPath $srcBg) { $templateBackgroundPath = $srcBg }
+            }
+        } catch { }
+    }
+    if ($templateLayoutPath -and -not (Test-Path -LiteralPath (Join-Path $projDir 'layout.json'))) {
+        $seedLayout = Get-Content -LiteralPath $templateLayoutPath -Raw -Encoding utf8 | ConvertFrom-Json
+        if ($templateBackgroundPath) {
+            $bgExt = [System.IO.Path]::GetExtension($templateBackgroundPath)
+            $bgFile = ("{0}{1}" -f ((Get-DokSafeName $Series).ToLower()), $bgExt)
+            $seedLayout.background = $bgFile
+            Copy-Item -LiteralPath $templateBackgroundPath -Destination (Join-Path $projDir $bgFile) -Force
+        }
+        ($seedLayout | ConvertTo-Json -Depth 20) | Set-Content -LiteralPath (Join-Path $projDir 'layout.json') -Encoding utf8
     }
 
     # Placeholder clip plan if none supplied.

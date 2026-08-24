@@ -1,0 +1,56 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.02,Caption,,0,0,0,,{\pos(540,1163)}To make us understand that,
+Dialogue: 0,0:00:02.52,0:00:05.48,Caption,,0,0,0,,{\pos(540,1163)}evil deeds are followed by\Nevil repercussions.
+Dialogue: 0,0:00:06.48,0:00:10.40,Caption,,0,0,0,,{\pos(540,1163)}And good deeds are followed\Nby goodness.
+Dialogue: 0,0:00:10.62,0:00:12.42,Caption,,0,0,0,,{\pos(540,1163)}If you are upon good deeds,
+Dialogue: 0,0:00:12.92,0:00:14.60,Caption,,0,0,0,,{\pos(540,1163)}if a person is upon sin,
+Dialogue: 0,0:00:15.22,0:00:17.02,Caption,,0,0,0,,{\pos(540,1163)}he begins to anticipate\Nkhairat,
+Dialogue: 0,0:00:17.02,0:00:18.82,Caption,,0,0,0,,{\pos(540,1163)}barakat.
+Dialogue: 0,0:00:18.82,0:00:21.58,Caption,,0,0,0,,{\pos(540,1163)}The day he starts tawbah.
+Dialogue: 0,0:00:22.24,0:00:23.58,Caption,,0,0,0,,{\pos(540,1163)}He will feel it by himself.
+Dialogue: 0,0:00:23.80,0:00:26.84,Caption,,0,0,0,,{\pos(540,1163)}I have turned a new leaf.
+Dialogue: 0,0:00:28.06,0:00:29.07,Caption,,0,0,0,,{\pos(540,1163)}And I know somebody who was\Nlike
+Dialogue: 0,0:00:29.07,0:00:30.08,Caption,,0,0,0,,{\pos(540,1163)}that.
+Dialogue: 0,0:00:30.96,0:00:31.92,Caption,,0,0,0,,{\pos(540,1163)}He used to be on drugs.
+Dialogue: 0,0:00:32.18,0:00:33.16,Caption,,0,0,0,,{\pos(540,1163)}He is late now.
+Dialogue: 0,0:00:33.88,0:00:35.16,Caption,,0,0,0,,{\pos(540,1163)}He used to be on drugs.
+Dialogue: 0,0:00:35.70,0:00:36.86,Caption,,0,0,0,,{\pos(540,1163)}He used to have people.
+Dialogue: 0,0:00:37.06,0:00:38.07,Caption,,0,0,0,,{\pos(540,1163)}He would be in bus stops,
+Dialogue: 0,0:00:38.07,0:00:39.08,Caption,,0,0,0,,{\pos(540,1163)}pickpockets.
+Dialogue: 0,0:00:39.24,0:00:39.90,Caption,,0,0,0,,{\pos(540,1163)}All of this.
+Dialogue: 0,0:00:41.02,0:00:42.54,Caption,,0,0,0,,{\pos(540,1163)}Their house is just about 5\Nor
+Dialogue: 0,0:00:42.54,0:00:44.06,Caption,,0,0,0,,{\pos(540,1163)}6 houses away from us.
+Dialogue: 0,0:00:44.82,0:00:46.36,Caption,,0,0,0,,{\pos(540,1163)}And his father was well\Nknown.
+Dialogue: 0,0:00:47.34,0:00:49.16,Caption,,0,0,0,,{\pos(540,1163)}This boy just turned one day.
+Dialogue: 0,0:00:49.44,0:00:50.38,Caption,,0,0,0,,{\pos(540,1163)}He observed salah.
+Dialogue: 0,0:00:50.54,0:00:51.40,Caption,,0,0,0,,{\pos(540,1163)}He went to the masjid.
+Dialogue: 0,0:00:51.44,0:00:52.94,Caption,,0,0,0,,{\pos(540,1163)}The masjid where if he came,
+Dialogue: 0,0:00:53.20,0:00:54.32,Caption,,0,0,0,,{\pos(540,1163)}everybody was afraid what he\Ncame to
+Dialogue: 0,0:00:54.32,0:00:55.44,Caption,,0,0,0,,{\pos(540,1163)}do.
+Dialogue: 0,0:00:56.30,0:00:58.62,Caption,,0,0,0,,{\pos(540,1163)}He made wudu, two units of\Nprayer.
+Dialogue: 0,0:00:59.04,0:01:00.04,Caption,,0,0,0,,{\pos(540,1163)}Just like that.
+Dialogue: 0,0:01:00.42,0:01:01.52,Caption,,0,0,0,,{\pos(540,1163)}Just like that.
+Dialogue: 0,0:01:02.18,0:01:03.36,Caption,,0,0,0,,{\pos(540,1163)}This boy turned.
+Dialogue: 0,0:01:03.94,0:01:06.22,Caption,,0,0,0,,{\pos(540,1163)}Muhammad was his name.
+Dialogue: 0,0:01:06.56,0:01:07.52,Caption,,0,0,0,,{\pos(540,1163)}He turned.
+Dialogue: 0,0:01:08.20,0:01:10.80,Caption,,0,0,0,,{\pos(540,1163)}He began upon good deeds.
+Dialogue: 0,0:01:11.14,0:01:13.70,Caption,,0,0,0,,{\pos(540,1163)}So that time, everybody who\Nsaw him,
+Dialogue: 0,0:01:13.80,0:01:14.02,Caption,,0,0,0,,{\pos(540,1163)}they said,
+Dialogue: 0,0:01:14.02,0:01:15.54,Caption,,0,0,0,,{\pos(540,1163)}We are looking calm now.
+Dialogue: 0,0:01:15.88,0:01:17.14,Caption,,0,0,0,,{\pos(540,1163)}We are looking honorable.
+Dialogue: 0,0:01:17.58,0:01:18.46,Caption,,0,0,0,,{\pos(540,1163)}We are looking this.
+Dialogue: 0,0:01:18.64,0:01:19.84,Caption,,0,0,0,,{\pos(540,1163)}One of the men in the masjid
+Dialogue: 0,0:01:19.84,0:01:21.04,Caption,,0,0,0,,{\pos(540,1163)}volunteered
+

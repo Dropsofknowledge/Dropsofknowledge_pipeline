@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0055-02",
+    "series":  "Dropsofknowledge",
+    "episode":  "0055",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Hope for Good from Allah by Doing Good",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "ad_daa.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\ad_daa_0055\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:15:35.240",
+                   "end":  "00:16:33.780",
+                   "duration_sec":  58.54
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0055-02/clip.mp4",
+    "caption_cues":  23
+}

@@ -1,0 +1,61 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.48,Caption,,0,0,0,,{\pos(540,1163)}Is it sensible
+Dialogue: 0,0:00:02.36,0:00:04.76,Caption,,0,0,0,,{\pos(540,1163)}Which one is sensible there
+Dialogue: 0,0:00:04.76,0:00:07.38,Caption,,0,0,0,,{\pos(540,1163)}Am tarqushay in haqqir
+Dialogue: 0,0:00:08.18,0:00:10.70,Caption,,0,0,0,,{\pos(540,1163)}Or that for you to live
+Dialogue: 0,0:00:10.70,0:00:13.03,Caption,,0,0,0,,{\pos(540,1163)}To be patient regarding the\Nprohibition of
+Dialogue: 0,0:00:13.03,0:00:15.36,Caption,,0,0,0,,{\pos(540,1163)}ariba
+Dialogue: 0,0:00:15.36,0:00:17.93,Caption,,0,0,0,,{\pos(540,1163)}To be patient regarding the\Nprohibition of
+Dialogue: 0,0:00:17.93,0:00:20.50,Caption,,0,0,0,,{\pos(540,1163)}banditry and kidnapping
+Dialogue: 0,0:00:21.36,0:00:24.29,Caption,,0,0,0,,{\pos(540,1163)}To be patient regarding not\Nkilling people
+Dialogue: 0,0:00:24.29,0:00:27.22,Caption,,0,0,0,,{\pos(540,1163)}in political office
+Dialogue: 0,0:00:27.22,0:00:29.60,Caption,,0,0,0,,{\pos(540,1163)}You are patient regarding\Nthat
+Dialogue: 0,0:00:29.60,0:00:31.57,Caption,,0,0,0,,{\pos(540,1163)}Let me leave it if it\Ninvolves
+Dialogue: 0,0:00:31.57,0:00:33.54,Caption,,0,0,0,,{\pos(540,1163)}haram
+Dialogue: 0,0:00:33.54,0:00:35.42,Caption,,0,0,0,,{\pos(540,1163)}Let me leave it if it\Ninvolves
+Dialogue: 0,0:00:35.42,0:00:37.30,Caption,,0,0,0,,{\pos(540,1163)}haram
+Dialogue: 0,0:00:37.30,0:00:39.16,Caption,,0,0,0,,{\pos(540,1163)}Is this one
+Dialogue: 0,0:00:46.22,0:00:48.55,Caption,,0,0,0,,{\pos(540,1163)}Is this better for you to\Nleave
+Dialogue: 0,0:00:48.55,0:00:50.89,Caption,,0,0,0,,{\pos(540,1163)}something that is haqqir,
+Dialogue: 0,0:00:50.89,0:00:53.22,Caption,,0,0,0,,{\pos(540,1163)}despicable
+Dialogue: 0,0:00:53.22,0:00:55.96,Caption,,0,0,0,,{\pos(540,1163)}It is even small
+Dialogue: 0,0:00:58.20,0:01:00.03,Caption,,0,0,0,,{\pos(540,1163)}It will leave you in a very
+Dialogue: 0,0:01:00.03,0:01:01.86,Caption,,0,0,0,,{\pos(540,1163)}short time
+Dialogue: 0,0:01:01.86,0:01:05.16,Caption,,0,0,0,,{\pos(540,1163)}This is the enjoyment of this\Ndunya
+Dialogue: 0,0:01:05.16,0:01:07.39,Caption,,0,0,0,,{\pos(540,1163)}That is the comfort,
+Dialogue: 0,0:01:07.39,0:01:09.63,Caption,,0,0,0,,{\pos(540,1163)}that is your haqq,
+Dialogue: 0,0:01:09.63,0:01:11.86,Caption,,0,0,0,,{\pos(540,1163)}your yatch, your private jet
+Dialogue: 0,0:01:11.86,0:01:15.39,Caption,,0,0,0,,{\pos(540,1163)}They are haqqir, sagir,
+Dialogue: 0,0:01:15.39,0:01:18.92,Caption,,0,0,0,,{\pos(540,1163)}munkathein and qarib
+Dialogue: 0,0:01:18.92,0:01:20.34,Caption,,0,0,0,,{\pos(540,1163)}They are despicable
+Dialogue: 0,0:01:20.92,0:01:22.33,Caption,,0,0,0,,{\pos(540,1163)}They are small things,
+Dialogue: 0,0:01:22.33,0:01:23.74,Caption,,0,0,0,,{\pos(540,1163)}they are sagir
+Dialogue: 0,0:01:23.74,0:01:25.88,Caption,,0,0,0,,{\pos(540,1163)}They are munkathein and qarib
+Dialogue: 0,0:01:25.88,0:01:27.49,Caption,,0,0,0,,{\pos(540,1163)}They will become disconnected\Nfrom you in
+Dialogue: 0,0:01:27.49,0:01:29.10,Caption,,0,0,0,,{\pos(540,1163)}a very short time
+Dialogue: 0,0:01:29.10,0:01:31.16,Caption,,0,0,0,,{\pos(540,1163)}Is there anybody who has\Nenjoyed riding
+Dialogue: 0,0:01:31.16,0:01:33.22,Caption,,0,0,0,,{\pos(540,1163)}a yatch
+Dialogue: 0,0:01:33.22,0:01:35.24,Caption,,0,0,0,,{\pos(540,1163)}Or a private jet in 70,
+Dialogue: 0,0:01:35.24,0:01:37.26,Caption,,0,0,0,,{\pos(540,1163)}80 years
+Dialogue: 0,0:01:37.98,0:01:40.26,Caption,,0,0,0,,{\pos(540,1163)}It is munkathein and a very\Nsmall
+Dialogue: 0,0:01:40.26,0:01:42.54,Caption,,0,0,0,,{\pos(540,1163)}time now they will leave you
+Dialogue: 0,0:01:43.12,0:01:44.93,Caption,,0,0,0,,{\pos(540,1163)}Is this one better,
+Dialogue: 0,0:01:44.93,0:01:46.73,Caption,,0,0,0,,{\pos(540,1163)}is it better for you to\Nsacrifice
+Dialogue: 0,0:01:46.73,0:01:48.54,Caption,,0,0,0,,{\pos(540,1163)}this one
+Dialogue: 0,0:01:49.14,0:01:51.32,Caption,,0,0,0,,{\pos(540,1163)}Why I don't want to eat riba
+Dialogue: 0,0:01:51.32,0:01:53.86,Caption,,0,0,0,,{\pos(540,1163)}Why I cannot involve in\Nkidnapping
+Dialogue: 0,0:01:53.86,0:01:56.92,Caption,,0,0,0,,{\pos(540,1163)}Why I cannot involve in\Nbanditry
+Dialogue: 0,0:01:56.92,0:01:59.32,Caption,,0,0,0,,{\pos(540,1163)}I cannot steal government\Nmoney
+

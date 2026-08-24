@@ -1,0 +1,46 @@
+﻿{
+    "project":  "DropsofKnowledge_0051",
+    "last_run":  "2026-08-17T19:52:12Z",
+    "clips":  [
+                  {
+                      "id":  "0051-01",
+                      "status":  "completed",
+                      "output":  "output/0051-01/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-02",
+                      "status":  "completed",
+                      "output":  "output/0051-02/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-03",
+                      "status":  "completed",
+                      "output":  "output/0051-03/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-04",
+                      "status":  "completed",
+                      "output":  "output/0051-04/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-05",
+                      "status":  "completed",
+                      "output":  "output/0051-05/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-06",
+                      "status":  "completed",
+                      "output":  "output/0051-06/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-07",
+                      "status":  "completed",
+                      "output":  "output/0051-07/clip.mp4"
+                  },
+                  {
+                      "id":  "0051-08",
+                      "status":  "completed",
+                      "output":  "output/0051-08/clip.mp4"
+                  }
+              ]
+}

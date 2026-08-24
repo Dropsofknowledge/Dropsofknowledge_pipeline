@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0055-03",
+    "series":  "Dropsofknowledge",
+    "episode":  "0055",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Turning Away from Sin Can Change a Person’s Life",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "ad_daa.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\ad_daa_0055\\layout.json"
+               },
+    "window":  {
+                   "start":  "00:19:12.900",
+                   "end":  "00:20:33.940",
+                   "duration_sec":  81.04
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0055-03/clip.mp4",
+    "caption_cues":  42
+}

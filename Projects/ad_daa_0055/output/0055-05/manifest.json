@@ -1,0 +1,26 @@
+﻿{
+    "id":  "0055-05",
+    "series":  "Dropsofknowledge",
+    "episode":  "0055",
+    "speaker":  "Abu Naasir Ibrahim Abdulrauf",
+    "headline":  "Practical Ways to Help a Parent Return to Salah",
+    "inputs":  {
+                   "audio":  "audio.amr",
+                   "background":  "ad_daa.png",
+                   "transcript":  "transcript.srt",
+                   "template":  "C:\\Users\\Mahmud\\Documents\\ChatGPT\\drops\\repo\\Projects\\ad_daa_0055\\layout.json"
+               },
+    "window":  {
+                   "start":  "01:06:29.610",
+                   "end":  "01:08:10.490",
+                   "duration_sec":  100.88
+               },
+    "render":  {
+                   "width":  1080,
+                   "height":  1920,
+                   "fps":  30,
+                   "codec":  "h264/aac"
+               },
+    "output":  "output/0055-05/clip.mp4",
+    "caption_cues":  58
+}

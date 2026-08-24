@@ -1,0 +1,51 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,PT Serif,41,&H001A1A1A,&H001A1A1A,&H00FFFFFF,1,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.40,Caption,,0,0,0,,{\pos(540,1296)}Did you not hear what Allah\Ncommanded
+Dialogue: 0,0:00:01.40,0:00:02.80,Caption,,0,0,0,,{\pos(540,1296)}the messenger to say,
+Dialogue: 0,0:00:02.80,0:00:04.82,Caption,,0,0,0,,{\pos(540,1296)}Salatu was-salam, that
+Dialogue: 0,0:00:04.82,0:00:10.49,Caption,,0,0,0,,{\pos(540,1296)}My Salat, my devotion in\NSalah,
+Dialogue: 0,0:00:10.49,0:00:16.17,Caption,,0,0,0,,{\pos(540,1296)}all everything I do in my\Nlife
+Dialogue: 0,0:00:16.17,0:00:21.84,Caption,,0,0,0,,{\pos(540,1296)}regarding
+Dialogue: 0,0:00:21.84,0:00:24.67,Caption,,0,0,0,,{\pos(540,1296)}reverence for Allah, and the\Nentirety of
+Dialogue: 0,0:00:24.67,0:00:27.50,Caption,,0,0,0,,{\pos(540,1296)}my existence itself as an\Nindividual,
+Dialogue: 0,0:00:28.50,0:00:30.37,Caption,,0,0,0,,{\pos(540,1296)}Lillah, it's for Allah.
+Dialogue: 0,0:00:30.37,0:00:32.25,Caption,,0,0,0,,{\pos(540,1296)}No Caesar, no division\Nbetween Caesar.
+Dialogue: 0,0:00:32.25,0:00:34.12,Caption,,0,0,0,,{\pos(540,1296)}No,
+Dialogue: 0,0:00:34.12,0:00:35.50,Caption,,0,0,0,,{\pos(540,1296)}Caesar does not have\Nanything.
+Dialogue: 0,0:00:35.50,0:00:36.88,Caption,,0,0,0,,{\pos(540,1296)}In fact, in our obedience of\Nour
+Dialogue: 0,0:00:36.88,0:00:38.26,Caption,,0,0,0,,{\pos(540,1296)}leaders,
+Dialogue: 0,0:00:38.54,0:00:40.04,Caption,,0,0,0,,{\pos(540,1296)}who told us to be in our
+Dialogue: 0,0:00:40.04,0:00:41.54,Caption,,0,0,0,,{\pos(540,1296)}leaders? Did Allah not say to\Nus
+Dialogue: 0,0:00:41.54,0:00:43.04,Caption,,0,0,0,,{\pos(540,1296)}in the Quran that
+Dialogue: 0,0:00:47.14,0:00:50.66,Caption,,0,0,0,,{\pos(540,1296)}that the Prophet Muhammad not\Ngive us
+Dialogue: 0,0:00:50.66,0:00:54.18,Caption,,0,0,0,,{\pos(540,1296)}proof whose guidance about\Ngovernance
+Dialogue: 0,0:00:54.18,0:00:56.52,Caption,,0,0,0,,{\pos(540,1296)}and obedience to constituted\Nauthority?
+Dialogue: 0,0:00:56.52,0:00:58.86,Caption,,0,0,0,,{\pos(540,1296)}In all of that as we obey
+Dialogue: 0,0:00:58.86,0:01:01.20,Caption,,0,0,0,,{\pos(540,1296)}our leaders,
+Dialogue: 0,0:01:01.78,0:01:03.25,Caption,,0,0,0,,{\pos(540,1296)}well as we lead us,
+Dialogue: 0,0:01:03.25,0:01:04.71,Caption,,0,0,0,,{\pos(540,1296)}there are instructions in the\NQuran and
+Dialogue: 0,0:01:04.71,0:01:06.18,Caption,,0,0,0,,{\pos(540,1296)}the Sunnah.
+Dialogue: 0,0:01:07.66,0:01:09.56,Caption,,0,0,0,,{\pos(540,1296)}There are instructions in the\NQuran and
+Dialogue: 0,0:01:09.56,0:01:11.46,Caption,,0,0,0,,{\pos(540,1296)}the Sunnah about leading\Nitself,
+Dialogue: 0,0:01:12.28,0:01:14.16,Caption,,0,0,0,,{\pos(540,1296)}about being a judge if you\Nare
+Dialogue: 0,0:01:14.16,0:01:16.03,Caption,,0,0,0,,{\pos(540,1296)}a judge in the court of law.
+Dialogue: 0,0:01:16.03,0:01:17.91,Caption,,0,0,0,,{\pos(540,1296)}What do you judge?
+Dialogue: 0,0:01:17.91,0:01:19.78,Caption,,0,0,0,,{\pos(540,1296)}How do you judge?
+Dialogue: 0,0:01:19.78,0:01:22.73,Caption,,0,0,0,,{\pos(540,1296)}What are rulings itself?
+Dialogue: 0,0:01:22.73,0:01:25.69,Caption,,0,0,0,,{\pos(540,1296)}In fiqhul Islam, there is\Nkitab al-qabr,
+Dialogue: 0,0:01:25.69,0:01:28.64,Caption,,0,0,0,,{\pos(540,1296)}rulings, judgments
+Dialogue: 0,0:01:29.89,0:01:32.25,Caption,,0,0,0,,{\pos(540,1296)}that you must understand to\Nbe able
+Dialogue: 0,0:01:32.25,0:01:34.62,Caption,,0,0,0,,{\pos(540,1296)}to gain the ability to also\Ngive
+Dialogue: 0,0:01:34.62,0:01:36.98,Caption,,0,0,0,,{\pos(540,1296)}judgments in similar cases,
+

@@ -143,7 +143,9 @@ foreach ($clip in $clips) {
         $dur   = $end - $start
 
         # Build overlay -> base frame.
-        $svg = New-DokOverlaySvg -Layout $layout -Headline $clip.headline -Speaker $speaker -Series $series -ClipId $id -RootDir $RootDir
+        # The baked series label should show the project/episode code (e.g. 0486),
+        # not the per-clip sequence id (0001, 0002, ...).
+        $svg = New-DokOverlaySvg -Layout $layout -Headline $clip.headline -Speaker $speaker -Series $series -ClipId $episode -RootDir $RootDir
         $overlayPng = Join-Path $clipOut 'overlay.png'
         $baseFrame  = Join-Path $clipOut 'base.png'
         if (-not (Convert-DokSvgToPng -MagickExe $tools.Magick -Svg $svg -OutPng $overlayPng -Width $cw -Height $ch)) {
