@@ -8,9 +8,21 @@
 - Telegram audio auto-fetch with dedupe
 - Cloud backup to private GitHub repo
 - Dataset logging (transcript + clip_plan pairs)
-- Publishing framework (YouTube, X, Facebook) with approval queue and title/description drafting
+- Publishing framework (YouTube, Facebook) with approval queue and title/description drafting
 
-**Current work:** Task 7 (clip-plan generation) + credential setup for uploaders.
+**Platform scope:** YouTube and Facebook only. These were the original traffic sources.
+X, TikTok, and Instagram are explicitly out of scope for now — not rejected, just deferred.
+If added later, they get their own task; do not build toward them speculatively.
+
+**Current work:** Task 7 (clip-plan generation) + Task 8 (credential setup for YouTube/Facebook).
+
+---
+
+## PREREQUISITE — before any new task
+
+Before starting Task 7, check `git status` in the main repo.
+If there are uncommitted or untracked files: **stop and commit/push them first.**
+Do not layer new work on top of an uncommitted tree. This applies at the start of every session, not just once.
 
 ---
 
@@ -54,7 +66,10 @@ Build `scripts/generate_clip_plan.py`:
 **The review step:**
 - Show the user the staged plan (list clips with start/end times, headlines)
 - Allow editing (JSON is fine, doesn't need a UI)
-- User explicitly runs: `python scripts/generate_clip_plan.py --approve state/clip_plan_staging_<timestamp>.json`
+- User explicitly runs:
+  ```
+  python scripts/generate_clip_plan.py --approve state/clip_plan_staging_<timestamp>.json
+  ```
 - Only then: copy to the real `clip_plan.json` location and proceed to rendering
 
 **Provider choice:**
@@ -90,7 +105,7 @@ The LLM should receive:
 
 ---
 
-## Task 8 — Credential setup and upload verification
+## Task 8 — Credential setup and upload verification (YouTube + Facebook only)
 
 Once clip-plan generation is working, finalize the publishing layer by setting up real account credentials and running one test upload through each platform.
 
@@ -116,34 +131,7 @@ Once clip-plan generation is working, finalize the publishing layer by setting u
    ```
    python scripts\upload_youtube.py --approve state/publish_queue.json <entry-id>
    ```
-   Verify the clip appears on your channel.
-
-### X (formerly Twitter)
-
-1. Go to developer.twitter.com and create an app under your account
-2. Request **write** access (free tier may require manual approval from X)
-3. Enable "OAuth 1.0a" in your app settings
-4. Generate/regenerate API credentials:
-   - `api_key` (API Key)
-   - `api_secret` (API Secret)
-   - `access_token` (Personal Access Token)
-   - `access_token_secret` (Personal Access Token Secret)
-5. Add to `.env`:
-   ```
-   X_API_KEY=<api-key>
-   X_API_SECRET=<api-secret>
-   X_ACCESS_TOKEN=<access-token>
-   X_ACCESS_TOKEN_SECRET=<access-token-secret>
-   ```
-6. Test auth (no posting yet):
-   ```
-   python scripts\upload_x.py --dry-run
-   ```
-7. Once confirmed, run a real post:
-   ```
-   python scripts\upload_x.py --approve state/publish_queue.json <entry-id>
-   ```
-   Verify it appears on your account (it will incur the $0.015 per-post charge).
+   Verify the clip appears on your channel with a real video ID.
 
 ### Facebook
 
@@ -168,48 +156,89 @@ Once clip-plan generation is working, finalize the publishing layer by setting u
    ```
    Verify it appears as a draft or scheduled post on your Page.
 
-### After all three are verified
+### After both are verified
 
-Once all three platforms have received at least one real test post:
+Once YouTube and Facebook have each received at least one real test post:
 - Run `BACKUP.cmd` to commit the updated scripts and .env.example (but NOT .env)
 - Document in `docs/SETUP.md` exactly which credentials are needed and where to get them
-- Declare the publishing layer complete
+- Declare the publishing layer complete for these two platforms
 
 ---
 
-## Combined workflow (Tasks 1–8 complete)
+## Task 9 — Interactive status + approval dashboard (do this LAST, after Tasks 7 and 8, and only once everything is committed)
 
-Once you approve credentials and Task 7 verification is done, your full pipeline looks like:
+### Why
+
+The user currently has to open several files/folders to know what needs attention, and then leave that view to actually approve anything. This task builds one command that shows everything pending AND lets the user act on it — approve, or open in editor — from the same screen.
+
+### What this task is NOT
+
+- Does NOT move, rename, or restructure any existing files or folders
+- Does NOT change any file paths that other scripts depend on
+- Does NOT reimplement approval logic — it must call the *same* approve functions/commands the existing scripts already use
+- This is a thin interactive layer over existing scripts, not a rebuild of them
+
+If physically moving files ever becomes genuinely necessary later, it's a separate, explicit task done on a clean committed tree with every path reference updated and tested — not bundled into this one.
+
+### Implementation
+
+Build `scripts/status.py`. Running it with no arguments shows a numbered menu:
 
 ```
-1. python scripts\telegram_fetch.py
+python scripts\status.py
+```
+
+Example output:
+```
+[1] Clip plan awaiting approval: state/clip_plan_staging_20250601.json (4 clips)
+[2] Publish queue entry awaiting approval: yt_ep12_clip3 (YouTube + Facebook draft)
+[3] Missing credential: FB_PAGE_ACCESS_TOKEN not set in .env
+
+Type a number to act on it, "e <number>" to open it in your editor first, or "q" to quit.
+```
+
+- Selecting a clip-plan item runs the exact same approval call as
+  `generate_clip_plan.py --approve <file>`
+- Selecting a publish-queue item runs the exact same approval call as
+  `publish.py approve <entry-id>`
+- Selecting a missing-credential item just tells you what to add and where — it cannot create credentials for you
+- Also show a short "recent activity" section: last 5 completed uploads/renders with timestamps, so nothing silently failed unnoticed
+
+### Hard boundary
+
+If at any point it seems like the fix "requires" moving files, duplicating approval logic, or bypassing an existing check — stop and flag it instead of doing it. This script is a control panel that reaches into the existing pipeline; it does not become a second, separate pipeline.
+
+---
+
+## Combined workflow (Tasks 1–9 complete)
+
+```
+1. python scripts\status.py
+   → One screen: shows everything awaiting review/approval, or missing setup
+   → Approve items directly from here, or drill into a file first
+
+2. python scripts\telegram_fetch.py
    → Downloads new lectures, dedupes
 
-2. python scripts\transcribe.py <lecture-folder> --language ar
+3. python scripts\transcribe.py <lecture-folder> --language ar
    → Whisper transcription, outputs .json + .srt
 
-3. python scripts\generate_clip_plan.py <transcript.json>
+4. python scripts\generate_clip_plan.py <transcript.json>
    → Generates staging clip plan
-   → YOU REVIEW + EDIT
-   → python scripts\generate_clip_plan.py --approve <staging-file>
-   → Copies to real clip_plan.json
+   → Review/approve via status.py, or directly:
+     python scripts\generate_clip_plan.py --approve <staging-file>
 
-4. python scripts\render.py <clip_plan.json>
+5. python scripts\render.py <clip_plan.json>
    (existing renderer, unchanged)
    → Produces final MP4 clips
 
-5. python scripts\publish.py list
-   → Shows queue entries ready for drafting
-
-6. python scripts\publish.py draft <clip-file> --platforms youtube x facebook
+6. python scripts\publish.py draft <clip-file> --platforms youtube facebook
    → Drafts title/description via LLM
-   → YOU REVIEW + EDIT
-   → python scripts\publish.py approve <queue-entry-id>
+   → Review/approve via status.py, or directly:
+     python scripts\publish.py approve <queue-entry-id>
 
 7. python scripts\upload_youtube.py --approve <queue-entry-id>
-   python scripts\upload_x.py --approve <queue-entry-id>
    python scripts\upload_facebook.py --approve <queue-entry-id>
-   (run each separately, whenever you're ready)
    → Real posts go live
 
 8. BACKUP.cmd
@@ -228,22 +257,27 @@ Two review gates: one after clip generation, one after caption drafting. No auto
 - All scripts read provider/model info from config, not hardcoded
 - Credentials are owner-managed (you own the accounts, billing, verification)
 - All real uploads require an `--approve` flag and explicit queue entry
+- No task moves, renames, or restructures existing files unless that task's spec explicitly says so
+- The dashboard (Task 9) must call existing approval functions, never duplicate them
 
 ---
 
 ## Next steps
 
-1. **Complete Task 7:** Build `generate_clip_plan.py` with staging → approval flow
-2. **Test Task 7:** One real transcript through to rendered clip using AI-generated plan
-3. **Get credentials:** YouTube, X, Facebook (collect the info above)
-4. **Complete Task 8:** Verify uploaders work with real test posts
-5. **Run backup:** Final push to backup repo
-6. Document the complete workflow in `docs/SETUP.md` and `docs/OPERATIONS.md`
+1. **Check git status** — commit/push anything uncommitted before starting
+2. **Complete Task 7:** Build `generate_clip_plan.py` with staging → approval flow
+3. **Test Task 7:** One real transcript through to rendered clip using AI-generated plan
+4. **Complete Task 8:** Verify YouTube and Facebook uploaders work with real test posts
+5. **Complete Task 9:** Build the interactive status + approval dashboard
+6. **Run backup:** Final push to backup repo
+7. Document the complete workflow in `docs/SETUP.md` and `docs/OPERATIONS.md`
 
 ---
 
 ## Out of scope (reserved for later)
 
+- X, TikTok, Instagram publishing
 - End-to-end orchestration (chaining tasks into one command)
 - Automatic scheduling or timer-based publishing
+- Any physical reorganization of the file/folder structure
 - Anything that removes the human approval gates
